@@ -12,6 +12,32 @@ export interface Item {
 }
 
 export const items: Item[] = [
+    {
+    "item_name": "test item",
+    "item_type": "Sword",
+    "rarity": "Epic",
+    "required_level": 500,
+    "base_stats": {
+      "total_damage": "999-60",
+      "pierce_damage": "270-300",
+      "strike_damage": "90-100",
+      "attack_speed": "12x"
+    }, 
+    "magical_properties": [
+      "+180% Cold Resistance",
+      "+120% Poison Resistance",
+      "+50 Weapon Strike Damage",
+      "19% increased Critical Hit chance",
+      "+90% Glancing Hits Chance",
+      "70% increased Attack Speed",
+      "120% increased Strike Damage",
+      "120% increased Pierce Damage"
+    ],
+    "unique_effects": [],
+    "flavor_text": "mighty sword for testing.",
+    "requirements": "FIT 1033",
+    "gold_value": 51114
+  },
   {
     "item_name": "Kaenas' Sword",
     "item_type": "Sword",
