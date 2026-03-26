@@ -270,7 +270,7 @@ export const items: Item[] = [
     "magical_properties": [
       "+47 Weapon Fire Damage",
       "54% increased Fire Damage",
-      "+53 Energy",
+      "+54 Energy",
       "42% increased Ailment Chance",
       "10% increased Cast Speed"
     ],
