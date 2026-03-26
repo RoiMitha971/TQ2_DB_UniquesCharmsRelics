@@ -11,6 +11,8 @@ export interface Item {
   gold_value: number;
 }
 
+My error here
+
 export const items: Item[] = [
   {
     "item_name": "Kaenas' Sword",
