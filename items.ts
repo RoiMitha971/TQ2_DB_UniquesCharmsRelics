@@ -13,29 +13,29 @@ export interface Item {
 
 export const items: Item[] = [
   {
-  "item_name": "Atlantean Sabre",
-  "item_type": "Sword",
-  "rarity": "Epic",
-  "required_level": 50,
-  "base_stats": {
-    "total_damage": "120-132",
-    "pierce_damage": "48-53",
-    "cold_damage": "36-40",
-    "poison_damage": "36-40",
-    "attack_speed": "1.4x"
-  },
-  "magical_properties": [
-    "+22 Weapon Cold Damage",
-    "9% increased Attributes",
-    "+23 Weapon Pierce Damage",
-    "+27 Weapon Poison Damage",
-    "+30 Energy",
-    "+9 Energy Regeneration per second"
-  ],
-  "unique_effects": [],
-  "flavor_text": "A relic from a place of legends past.",
-  "requirements": "FIT 241",
-  "gold_value": 4804
+    "item_name": "Atlantean Sabre",
+    "item_type": "Sword",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "total_damage": "120-132",
+      "pierce_damage": "48-53",
+      "cold_damage": "36-40",
+      "poison_damage": "36-40",
+      "attack_speed": "1.4x"
+    },
+    "magical_properties": [
+      "+22 Weapon Cold Damage",
+      "9% increased Attributes",
+      "+23 Weapon Pierce Damage",
+      "+27 Weapon Poison Damage",
+      "+30 Energy",
+      "+9 Energy Regeneration per second"
+    ],
+    "unique_effects": [],
+    "flavor_text": "A relic from a place of legends past.",
+    "requirements": "FIT 241",
+    "gold_value": 4804
   },
   {
     "item_name": "Kaenas' Sword",
