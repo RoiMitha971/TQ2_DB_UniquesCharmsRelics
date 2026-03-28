@@ -23,12 +23,12 @@ In the description field, please detail which entries (charm, relic or item) you
 
 Click on the green button "Propose Changes" and then "Create pull request".
 
-### Data Template 
+# Data Template 
 
 You can copy these templates to add new entries to the database. 
 Make sure to add commas correctly and always double-check the indentation.
 
-# Item 
+### Item 
   {
     "item_name": "Name goes here",
     "item_type": "Sword",
@@ -46,7 +46,7 @@ Make sure to add commas correctly and always double-check the indentation.
     "gold_value": 999999
   },
 
-# Charm / Relic
+### Charm / Relic
 
   {
     "category": "Charm",
