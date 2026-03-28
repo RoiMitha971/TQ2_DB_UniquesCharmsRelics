@@ -16,9 +16,9 @@ export const items: Item[] = [
     "item_name": "test item",
     "item_type": "Sword",
     "rarity": "Epic",
-    "required_level": 500,
+    "required_level": 50000,
     "base_stats": {
-      "total_damage": "999-60",
+      "total_damage": "999-6000",
       "pierce_damage": "270-300",
       "strike_damage": "90-100",
       "attack_speed": "12x"
