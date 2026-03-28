@@ -29,41 +29,42 @@ You can copy these templates to add new entries to the database.
 Make sure to add commas correctly and always double-check the indentation.
 
 ### Item 
-  {
-    "item_name": "Name goes here",
-    "item_type": "Sword",
-    "rarity": "Epic",
-    "required_level": 50,
-    "base_stats": {
-      "stat_name": "X-Y"
-    },
-    "magical_properties": [
-      "Stat goes here"
-    ],
-    "unique_effects": [],
-    "flavor_text": "Lorem Ipsum",
-    "requirements": "FIT 999",
-    "gold_value": 999999
+```
+{
+  "item_name": "Name goes here", 
+  "item_type": "Sword", 
+  "rarity": "Epic", 
+  "required_level": 50,
+  "base_stats": {
+    "stat_name": "X-Y"
   },
-
+  "magical_properties": [
+    "Stat goes here"
+  ],
+  "unique_effects": [],
+  "flavor_text": "Lorem Ipsum",
+  "requirements": "FIT 999",
+  "gold_value": 999999
+},
+```
 ### Charm / Relic
-
-  {
-    "category": "Charm",
-    "item_name": "Name goes here",
-    "item_type": "Charm",
-    "stats": [
-      "Stat goes here"
-    ],
-    "completion_bonus": [
-      "Stat goes here"
-    ],
-    "enchantable_slots": [
-      "Slot goes here"
-    ],
-    "dropped_by": "X" //Remove for relics
-  },
-
+```
+{
+  "category": "Charm",
+  "item_name": "Name goes here",
+  "item_type": "Charm",
+  "stats": [
+    "Stat goes here"
+  ],
+  "completion_bonus": [
+    "Stat goes here"
+  ],
+  "enchantable_slots": [
+    "Slot goes here"
+  ],
+  "dropped_by": "X" //Remove for relics
+},
+```
 # FAQ
 
 ### I don't understand X/Y/Z, what should I do ?
