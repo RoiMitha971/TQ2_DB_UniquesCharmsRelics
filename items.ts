@@ -36,7 +36,7 @@ export const items: Item[] = [
   "flavor_text": "A relic from a place of legends past.",
   "requirements": "FIT 241",
   "gold_value": 4804
-  }
+  },
   {
     "item_name": "Kaenas' Sword",
     "item_type": "Sword",
