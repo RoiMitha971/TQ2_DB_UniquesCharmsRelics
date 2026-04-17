@@ -25,14 +25,15 @@ export const items: Item[] = [
       "attack_speed": "1.4x"
     },
     "magical_properties": [
-      "+22 Weapon Cold Damage",
       "9% increased Attributes",
-      "+23 Weapon Pierce Damage",
-      "+27 Weapon Poison Damage",
-      "+30 Energy",
-      "+9 Energy Regeneration per second"
+      "46% increased Ailment Chance",
+      "24% increased Ailment Power"
     ],
-    "unique_effects": [],
+    "unique_effects": [
+      "+1 Maximum Ailment stacks",
+      "+3% Base Weapon Ailment Chance",
+      "4% More damage per different Ailment on your target (Unique Effect)"
+    ],
     "flavor_text": "A relic from a place of legends past.",
     "requirements": "FIT 241",
     "gold_value": 4804
@@ -41,26 +42,27 @@ export const items: Item[] = [
     "item_name": "Kaenas' Sword",
     "item_type": "Sword",
     "rarity": "Epic",
-    "required_level": 180,
+    "required_level": 20,
     "base_stats": {
-      "total_damage": "36-40",
-      "pierce_damage": "27-30",
-      "strike_damage": "9-10",
+      "total_damage": "40-44",
+      "pierce_damage": "30-33",
+      "strike_damage": "10-11",
       "attack_speed": "1.4x"
     },
     "magical_properties": [
-      "+18% Cold Resistance",
-      "+12% Poison Resistance",
-      "+5 Weapon Strike Damage",
-      "19% increased Critical Hit chance",
-      "+9% Glancing Hits Chance",
-      "7% increased Attack Speed",
-      "12% increased Strike Damage",
-      "12% increased Pierce Damage"
+      "+8 Weapon Strike Damage",
+      "20% increased Attack Damage",
+      "13% increased Strike Damage",
+      "13% increased Pierce Damage",
+      "6% increased Attack Speed",
+      "+9% Cold Resistance",
+      "+12% Poison Resistance"
     ],
-    "unique_effects": [],
+    "unique_effects": [
+      "+1 Capacity to Primary Attack"
+    ],
     "flavor_text": "The sword of the heroic spirit you met on the beach.",
-    "requirements": "FIT 133",
+    "requirements": "FIT 140",
     "gold_value": 514
   },
   {
