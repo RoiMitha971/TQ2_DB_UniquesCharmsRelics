@@ -18,7 +18,7 @@ export const items: Item[] = [
     "rarity": "Epic",
     "required_level": 50,
     "base_stats": {
-      "barrier" : 361,
+      "barrier": 361,
       "armor": 257
     },
     "magical_properties": [
@@ -49,7 +49,7 @@ export const items: Item[] = [
       "94% increased Poison Damage",
       "96% increased Lightning Damage",
       "91% increased Fire Damage",
-      "90% increased Cold Damage"
+      "90% increased Cold Damage",
       "55% increased Projectile Damage",
       "16% increased Attack and Cast Speed"
     ],
@@ -209,7 +209,7 @@ export const items: Item[] = [
     "rarity": "Epic",
     "required_level": 50,
     "base_stats": {
-      "barrier" : 357,
+      "barrier": 357,
       "armor": 257
     },
     "magical_properties": [
