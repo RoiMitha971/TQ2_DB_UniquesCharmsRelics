@@ -423,13 +423,14 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Aegis of Athena",
     "item_type": "Relic",
     "stats": [
-      "5/10/15% increased Armor Value"
+      "+4/8/12 Armor per Level",
+      "5/10/15% increased Free Barrier"
     ],
     "completion_bonus": [
-      "30% increased Free Barrier"
+      "+10% Glancing Hit Damage Reduction"
     ],
     "enchantable_slots": [
-      "Shields"
+      "Shield"
     ]
   },
   {
@@ -437,7 +438,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Anvil of Hephaistos",
     "item_type": "Relic",
     "stats": [
-      "3/6/12% increased Area Damage",
+      "15/40/45% increased Area Damage",
       "4/8/12% increased Base Weapon Damage",
       "-10% reduced Movement Speed (in-combat only)"
     ],
@@ -453,16 +454,16 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Archimedes Mirror",
     "item_type": "Relic",
     "stats": [
-      "+3/6/9% Glancing Hits Chance",
-      "+6/12/18% Glancing Hits Damage Reduction",
-      "7/14/21% increased Retaliation Damage"
+      "+4/8/12% Glancing Hits Chance",
+      "+2/4/6% Glancing Hits Damage Reduction",
+      "15/30/45% increased Retaliation Damage"
     ],
     "completion_bonus": [
-      "15% chance to deal 100% Retaliation Damage + 100% of Damage Taken when hit"
+      "Whenever you get hit you have a 15% chance to deal 100% Retaliation Damage to the attacker"
     ],
     "enchantable_slots": [
-      "Shields",
-      "Talismans"
+      "Shield",
+      "Talisman"
     ]
   },
   {
@@ -470,12 +471,12 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Blade of Thanatos",
     "item_type": "Relic",
     "stats": [
-      "6/7/8% increased Attack Speed",
-      "15/30/45% More Damage to Elite Creatures",
+      "3/6/9% increased Attack Speed",
+      "4/8/12% More Damage to Elite Creatures",
       "+5% Health Reserved"
     ],
     "completion_bonus": [
-      "Every third Primary Attack against non-boss deals Spirit Damage (10% of missing Health)"
+      "Every third Primary Attack against non-boss deals Spirit Damage (20% of missing Health)"
     ],
     "enchantable_slots": [
       "All Weapons"
@@ -486,14 +487,15 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Bow of Apollo",
     "item_type": "Relic",
     "stats": [
-      "10/20/30% increased Ranged Attack Damage",
-      "10/20/30% increased Projectile Damage"
+      "15/30/45% increased Ranged Attack Damage",
+      "15/30/45% increased Projectile Damage"
     ],
     "completion_bonus": [
-      "Kills with a Bow heal 5% of max Health"
+      "20% increased Projectile Penetration",
+      "8% Projectile Critical Hit chance"
     ],
     "enchantable_slots": [
-      "Bows"
+      "Bow"
     ]
   },
   {
@@ -501,13 +503,13 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Chill of Tartaros",
     "item_type": "Relic",
     "stats": [
-      "5/10/15% increased Cold Damage",
-      "5/10/15% increased Base Weapon Cold Damage",
-      "-15% Cold Resistance"
+      "15/30/45% increased Cold Damage",
+      "3/6/9% increased Base Weapon Cold Damage",
+      "-20% Cold Resistance"
     ],
     "completion_bonus": [
-      "+0.6 Cold Weapon Damage per Level",
-      "Convert 35% of Weapon Damage to Cold"
+      "+0.6 Weapon Cold Damage per Level",
+      "Convert 35% of your Weapon's damage to Cold"
     ],
     "enchantable_slots": [
       "All Weapons"
@@ -518,9 +520,8 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Courage of Theseus",
     "item_type": "Relic",
     "stats": [
-      "2/4/6% increased Damage",
-      "4/5/6% increased Attack and Cast Speed",
-      "Summons have 10/20/30% increased Damage"
+      "Summons have 15/40/45% increased Damage",
+      "Summons have 8/16/24% increased Health"
     ],
     "completion_bonus": [
       "Kill grants 3% increased Total Damage for 5s (stacks 5x)"
@@ -535,9 +536,9 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_type": "Relic",
     "stats": [
       "3/4/9% increased Health",
-      "5/10/15% increased Health Regeneration",
-      "-10% Cold Resistance",
-      "5% Energy Reserved"
+      "4/8/12% increased Health Regeneration",
+      "-20% Cold Resistance",
+      "+30 Energy Reserved"
     ],
     "completion_bonus": [
       "Gain 10% Total Damage below 50% Health",
@@ -552,15 +553,12 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Hera's Scepter",
     "item_type": "Relic",
     "stats": [
-      "3/6/9% increased Spell Damage",
-      "5/10/15% increased Poison Damage",
-      "3/6/9% increased Plagued Ailment Power",
-      "10/12/14% increased Plagued Ailment Duration"
+      "15/30/45% increased Poison Damage",
+      "20/40/60% increased Plagued Ailment Chance",
+      "4/8/12% increased Plagued Ailment Duration"
     ],
     "completion_bonus": [
-      "Next hit has additional 100% Plagued chance (3s CD)",
-      "Take 10% less damage from Plagued enemies",
-      "+1 Maximum Plagued Stacks"
+      "+2 Maximum Plagued Stacks"
     ],
     "enchantable_slots": [
       "All Weapons"
@@ -571,15 +569,15 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Hermes' Sandal",
     "item_type": "Relic",
     "stats": [
-      "6/8/10% increased Movement Speed",
-      "+15/30/45 Agility"
+      "3/6/9% increased Movement Speed",
+      "+8/16/24 Agility"
     ],
     "completion_bonus": [
-      "Gain an additional charge of Dodge",
-      "10% increased Movement Speed"
+      "+1 Dodge Cooldown Charge",
+      "10% increased Movement Skill Cooldown Rate"
     ],
     "enchantable_slots": [
-      "Leg Armor"
+      "Legs"
     ]
   },
   {
@@ -587,15 +585,13 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Hestia's Cinders",
     "item_type": "Relic",
     "stats": [
-      "3/6/9% increased Damage over Time",
-      "5/10/15% increased Fire Damage",
-      "3/6/9% increased Burning Ailment Power",
-      "10/20/30% increased Burning Ailment Duration"
+      "10/20/30% increased Fire Damage",
+      "10/20/30% increased Burning Ailment Power",
+      "7/14/21% increased Burning Ailment Duration"
     ],
     "completion_bonus": [
-      "Next hit has additional 100% Burning chance (4s CD)",
-      "Burning enemies around you are slowed by 15%",
-      "+1 Maximum Burning Stacks"
+      "10% increased Total Fire Damage against Burning Enemies",
+      "+2 Maximum Burning Stacks"
     ],
     "enchantable_slots": [
       "All Weapons"
@@ -606,11 +602,11 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Hypnos' Calm",
     "item_type": "Relic",
     "stats": [
-      "6/12/18% increased Energy Regeneration",
+      "4/8/12 Energy Regeneration per second",
       "+30 Energy Reserved"
     ],
     "completion_bonus": [
-      "20% increased Energy Regeneration below 50% Energy"
+      "20% increased Energy Regeneration while below 50% Energy"
     ],
     "enchantable_slots": [
       "All Armor"
@@ -636,9 +632,9 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Legacy of Perseus",
     "item_type": "Relic",
     "stats": [
-      "5/10/15% increased Poison Damage",
-      "5/10/15% increased Base Weapon Poison Damage",
-      "15% Poison Resistance"
+      "15/30/45% increased Poison Damage",
+      "3/6/9% increased Base Weapon Poison Damage",
+      "-20% Poison Resistance"
     ],
     "completion_bonus": [
       "+0.6 Poison Weapon Damage per Level",
@@ -653,12 +649,12 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Persephone's Tears",
     "item_type": "Relic",
     "stats": [
-      "+15/30/45 Energy",
+      "+12/24/36 Energy",
       "+6/12/18% Cold Resistance"
     ],
     "completion_bonus": [
-      "5% increased Energy",
-      "+2% Max Cold Resistance"
+      "8% increased Energy",
+      "+4% Max Cold Resistance"
     ],
     "enchantable_slots": [
       "Rings",
@@ -670,13 +666,13 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Prometheus' Flame",
     "item_type": "Relic",
     "stats": [
-      "5/10/15% increased Fire Damage",
-      "5/10/15% increased Base Weapon Fire Damage",
-      "-15% Fire Resistance"
+      "15/30/45% increased Fire Damage",
+      "3/6/9% increased Base Weapon Fire Damage",
+      "-20% Fire Resistance"
     ],
     "completion_bonus": [
       "+0.6 Fire Weapon Damage per Level",
-      "Convert 35% of Weapon Damage to Fire"
+      "Convert 35% of your Weapon's Damage to Fire"
     ],
     "enchantable_slots": [
       "All Weapons"
@@ -689,8 +685,8 @@ export const relicsAndCharms: RelicCharm[] = [
     "stats": [
       "20/40/60% increased Strike Damage",
       "20/40/60% increased Pierce Damage",
-      "10% Reduced Strike Armor",
-      "10% Reduced Pierce Armor"
+      "+2/4/6% Critical Hit Chance",
+      "15% less Armor"
     ],
     "completion_bonus": [
       "Kill grants you and Summons 3% Speed for 10s (stacks 5x)"
@@ -704,9 +700,9 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Valor of Achilles",
     "item_type": "Relic",
     "stats": [
-      "5/10/15% increased Lightning Damage",
-      "5/10/15% increased Base Weapon Lightning Damage",
-      "15% Lightning Resistance"
+      "15/30/45% increased Lightning Damage",
+      "3/6/9% increased Base Weapon Lightning Damage",
+      "-20% Lightning Resistance"
     ],
     "completion_bonus": [
       "+0.6 Lightning Weapon Damage per Level",
@@ -721,11 +717,12 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Zeus' Thunderbolt",
     "item_type": "Relic",
     "stats": [
-      "4/5/6% increased Attack and Cast Speed",
-      "10/20/30% increased Lightning Damage"
+      "3/6/9% increased Attack and Cast Speed",
+      "15/30/45% increased Lightning Damage"
     ],
     "completion_bonus": [
-      "10% chance to instantly kill non-boss enemy on first hit"
+      "10% chance to instantly kill non-boss enemy on first hit",
+      "Convert 35% of Weapon Damage to Lightning"
     ],
     "enchantable_slots": [
       "All Weapons"
