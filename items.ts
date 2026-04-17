@@ -190,7 +190,7 @@ export const items: Item[] = [
     "required_level": 50,
     "base_stats": {},
     "magical_properties": [
-      "45% increased Elemental Damage"
+      "45% increased Elemental Damage",
       "+16 Energy",
       "+2.7 Energy Regeneration per second"
     ],
@@ -244,7 +244,7 @@ export const items: Item[] = [
       "+39% Increased Damage over Time",
       "+27 Might",
       "+20 Health recovered on Kill",
-      "47% Increased Ailment Chance",
+      "47% Increased Ailment Chance"
     ],
     "unique_effects": [
       "+23% Base Weapon Ailment Chance"
@@ -289,7 +289,7 @@ export const items: Item[] = [
       "24% increased Strike Damage",
       "24% increased Pierce Damage",
       "+25 Might",
-      "+273 Health",
+      "+273 Health"
     ],
     "unique_effects": [
       "+1 Level to Warfare Rage Passives",
