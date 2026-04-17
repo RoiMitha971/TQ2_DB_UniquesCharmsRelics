@@ -51,7 +51,7 @@ export const items: Item[] = [
       "91% increased Fire Damage",
       "90% increased Cold Damage"
       "55% increased Projectile Damage",
-      "16% increased Attack and Cast Speed",
+      "16% increased Attack and Cast Speed"
     ],
     "unique_effects": [
       "When you consume an Elemental Infusion, gain 15% All Speed and 15% Increased Total Damage for 3 seconds (Non Stackable)"
