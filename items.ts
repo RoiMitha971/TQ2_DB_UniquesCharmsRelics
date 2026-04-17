@@ -127,7 +127,7 @@ export const items: Item[] = [
       "14% increased Attack speed",
       "+22 Might",
       "+4% Critical Hit Chance",
-      "25% increased Ailment Power",
+      "25% increased Ailment Power"
     ],
     "unique_effects": [
       "+1 Maximum Bleeding Stacks",
