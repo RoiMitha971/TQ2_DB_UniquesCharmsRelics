@@ -16,23 +16,23 @@ export const items: Item[] = [
     "item_name": "Aegis of Laconia",
     "item_type": "Shield",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "armor": 220,
-      "strike_resistance": 110,
-      "pierce_resistance": 110
+      "barrier" : 361,
+      "armor": 257
     },
     "magical_properties": [
-      "Shield: +438 Free Barrier",
-      "+198 Health",
-      "+13 Might",
-      "11% increased Movement Skill Cooldown Rate"
+      "33% increased Attack Damage",
+      "+27 Might",
+      "+144 Health",
+      "20% increased Movement Skill Cooldown Rate"
     ],
     "unique_effects": [
-      "10% more Damage to Melee abilities"
+      "+1 Capacity to Weapon Attacks",
+      "+5% Glancing Hits Damage Reduction"
     ],
     "flavor_text": "The iconic shield of Spartan warrior, rarely found without its owner.",
-    "requirements": "FIT 224",
+    "requirements": "FIT 241",
     "gold_value": 3388
   },
   {
@@ -46,16 +46,15 @@ export const items: Item[] = [
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "9% increased Total Damage",
-      "11% increased Attack Speed",
-      "27% increased Poison Damage",
-      "27% increased Lightning Damage",
-      "20% increased Fire Damage",
-      "20% increased Cold Damage"
+      "94% increased Poison Damage",
+      "96% increased Lightning Damage",
+      "91% increased Fire Damage",
+      "90% increased Cold Damage"
+      "55% increased Projectile Damage",
+      "16% increased Attack and Cast Speed",
     ],
     "unique_effects": [
-      "+9% to all Magical Resistances",
-      "10% increased Weapon Projectile Damage"
+      "When you consume an Elemental Infusion, gain 15% All Speed and 15% Increased Total Damage for 3 seconds (Non Stackable)"
     ],
     "flavor_text": "The string of this bow is a magical band of shifting colors.",
     "requirements": "FIT 323",
@@ -91,21 +90,20 @@ export const items: Item[] = [
     "item_name": "Barrage",
     "item_type": "Bow",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "102-112",
-      "pierce_damage": "102-112",
+      "total_damage": "120-132",
+      "pierce_damage": "120-132",
       "attack_speed": "1.56x"
     },
     "magical_properties": [
-      "39% increased Pierce Damage",
-      "+21% Glancing Hits Chance",
-      "11% increased Attack Speed",
-      "12% increased Movement Speed",
-      "19% increased Movement Skill Cooldown Rate"
+      "81% increased Attack Damage",
+      "19% increased Attack Speed",
+      "+28% Glancing Hits Chance",
+      "15% increased Movement Speed"
     ],
     "unique_effects": [
-      "Hitting an enemy with your Primary Attack has a 5% chance of casting an unmodified Rain of Arrows"
+      "Hitting an enemy with your Primary Attack has a 10% chance of casting an unmodified Rain of Arrows"
     ],
     "flavor_text": "Sometimes quantity is the answer after all.",
     "requirements": "FIT 298",
@@ -115,23 +113,25 @@ export const items: Item[] = [
     "item_name": "Bonesaw",
     "item_type": "Sword",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "pierce_damage": "74-81",
-      "strike_damage": "49-54",
+      "total_damage": "144-160",
+      "pierce_damage": "87-96",
+      "strike_damage": "58-64",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "+24 Weapon Pierce Damage",
-      "19% increased Critical Hit chance",
-      "25% increased Ailment Duration",
-      "+3% Base Weapon Critical Hit Chance",
-      "+19 Vigor"
+      "+19 Weapon Pierce Damage",
+      "37% increased Strike Damage",
+      "41% increased Pierce Damage",
+      "14% increased Attack speed",
+      "+22 Might",
+      "+4% Critical Hit Chance",
+      "25% increased Ailment Power",
     ],
     "unique_effects": [
-      "+23% Base Weapon Ailment Chance",
-      "20% increased Critical Hit chance against Incapacitated Enemies"
+      "+1 Maximum Bleeding Stacks",
+      "+4% Base Weapon Ailment Chance"
     ],
     "flavor_text": "They say Asklepios used this on his patients. It now serves a more gruesome purpose.",
     "requirements": "MIG 230",
@@ -141,22 +141,23 @@ export const items: Item[] = [
     "item_name": "Brigand's Axe",
     "item_type": "1h Axe",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "pierce_damage": "12-14",
-      "strike_damage": "49-54",
-      "poison_damage": "61-68",
+      "total_damage": "144-160",
+      "strike_damage": "72-80",
+      "poison_damage": "72-80",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "32% increased Poison Damage",
-      "33% increased Strike Damage",
-      "+25% Poison Resistance",
-      "28% increased Dodge Range"
+      "+19 Weapon Poison Damage",
+      "43% increased Poison Damage",
+      "29% increased Weapon Damage",
+      "12% increased Attack Speed",
+      "+19% Poison Resistance",
+      "+15% Glancing Hits Chance"
     ],
     "unique_effects": [
-      "Hitting an enemy with your Primary Attack reduces Dodge Cooldown by 10% of its remaining duration"
+      "Hitting an enemy with your Primary Attack reduces Dodge Cooldown by 30% of its remaining duration (Unique Effect)"
     ],
     "flavor_text": "A well-honed blade coated in poison.",
     "requirements": "AGI 230",
@@ -166,16 +167,17 @@ export const items: Item[] = [
     "item_name": "Captain's Signet",
     "item_type": "Ring",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {},
     "magical_properties": [
-      "+154 Pierce Armor",
-      "+165 Strike Armor",
-      "+192 Free Barrier"
+      "+201 Armor",
+      "+19 Might",
+      "+157 Free Barrier",
+      "Summons have 24% increased Health"
     ],
     "unique_effects": [
-      "+9% to all Magical Resistances",
-      "15% increased Damage to Weapon Attacks"
+      "+1 Capacity to Barrier",
+      "+9% to all Magical Resistances"
     ],
     "flavor_text": "The iron seal of a veteran commander",
     "requirements": "LV 35",
@@ -185,19 +187,17 @@ export const items: Item[] = [
     "item_name": "Cartouche Ring",
     "item_type": "Ring",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {},
     "magical_properties": [
-      "21% increased Cold Damage",
-      "21% increased Fire Damage",
-      "30% increased Lightning Damage",
-      "+25 Energy",
-      "+10 Energy Regeneration per second"
+      "45% increased Elemental Damage"
+      "+16 Energy",
+      "+2.7 Energy Regeneration per second"
     ],
     "unique_effects": [
-      "+3 Maximum Burning Stacks",
-      "+3 Maximum Chilled Stacks",
-      "+3 Maximum Shocked Stacks"
+      "+2 Maximum Burning Stacks",
+      "+2 Maximum Chilled Stacks",
+      "+2 Maximum Shocked Stacks"
     ],
     "flavor_text": "A fine gold ring with a multitude of small colorful stones.",
     "requirements": "LV 35",
@@ -209,21 +209,20 @@ export const items: Item[] = [
     "rarity": "Epic",
     "required_level": 50,
     "base_stats": {
-      "armor": 257,
-      "strike_armor": 129,
-      "pierce_armor": 129
+      "barrier" : 357,
+      "armor": 257
     },
     "magical_properties": [
-      "337 Free Barrier",
-      "+140 Pierce Armor",
-      "+169 Strike Armor",
-      "Summons have 10% increased All Speed",
-      "+30 Energy",
-      "+9 Energy Regeneration per second",
-      "Summons have +16% to All Resistances",
-      "Summons have 23% increased Health"
+      "+335 Armor",
+      "+6.3 Energy Regeneration per second",
+      "Summons have 14% increased All Speed",
+      "+45 Free Energy Reservation",
+      "Summons have +21% to All Resistances",
+      "Summons have 21% increased Health"
     ],
-    "unique_effects": [],
+    "unique_effects": [
+      "+1 Capacity to Summon skills"
+    ],
     "flavor_text": "A large embossed bowl depicting mythical scenes of Glaukos and the people of Pyrgos.",
     "requirements": "RSV 241",
     "gold_value": 4711
@@ -232,21 +231,23 @@ export const items: Item[] = [
     "item_name": "Coral Mace",
     "item_type": "1h Club",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "147-163",
-      "strike_damage": "59-65",
-      "pierce_damage": "44-49",
-      "cold_damage": "44-49",
+      "total_damage": "173-191",
+      "strike_damage": "88-97",
+      "pierce_damage": "85-94",
       "attack_speed": "1.12x"
     },
     "magical_properties": [
-      "+41 Weapon Cold Damage",
-      "+27 Weapon Pierce Damage"
+      "+17 Weapon Cold Damage",
+      "+18 Weapon Pierce Damage",
+      "+39% Increased Damage over Time",
+      "+27 Might",
+      "+20 Health recovered on Kill",
+      "47% Increased Ailment Chance",
     ],
     "unique_effects": [
-      "+23% Base Weapon Ailment Chance",
-      "10% more Damage to Cold Spells"
+      "+23% Base Weapon Ailment Chance"
     ],
     "flavor_text": "This coral is hard enough to shatter bone.",
     "requirements": "MIG 230",
@@ -258,20 +259,20 @@ export const items: Item[] = [
     "rarity": "Epic",
     "required_level": 50,
     "base_stats": {
-      "armor": 257,
-      "strike_armor": 129,
-      "pierce_armor": 129
+      "barrier": 360,
+      "armor": 257
     },
     "magical_properties": [
-      "481 Free Barrier",
-      "+127 Pierce Armor",
-      "+215 Strike Armor",
-      "26% increased Critical Hit chance",
-      "26% increased Ailment Chance",
-      "Summons have 24% increased Health"
+      "+254 Pierce Retaliation",
+      "+225 Armor",
+      "10% increased Armor",
+      "+159 Health",
+      "46% increased Ailment Chance",
+      "Summons have 26% increased Health"
     ],
     "unique_effects": [
-      "Activating Barrier inflicts Pierce Damage to enemies around you"
+      "52% increased Retaliation Damage",
+      "Additionnal 15% Chance to apply Bleed when you deal Retaliation Damage"
     ],
     "flavor_text": "A shield fashioned from a sturdy crab shell.",
     "requirements": "MGT 251",
@@ -281,17 +282,18 @@ export const items: Item[] = [
     "item_name": "Cratus' Coil",
     "item_type": "Ring",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {},
     "magical_properties": [
-      "+215 Health",
-      "+16 Might",
-      "14% increased Physical Damage",
-      "15% increased Fire Damage",
-      "15% increased Cold Damage"
+      "44% increased Fire Damage",
+      "24% increased Strike Damage",
+      "24% increased Pierce Damage",
+      "+25 Might",
+      "+273 Health",
     ],
     "unique_effects": [
-      "+9% to all Magical Resistances",
+      "+1 Level to Warfare Rage Passives",
+      "+22% Impairment Resistance",
       "+3 maximum Rage stacks"
     ],
     "flavor_text": "Touched by Strength itself, the plain looking metal emenates an aura of might and fury.",
@@ -309,13 +311,15 @@ export const items: Item[] = [
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "12% More Damage to Humans and Demi-Humans",
-      "+40 Weapon Strike Damage",
-      "+70 Weapon Vitality Damage",
-      "+33 Vigor"
+      "+114 Weapon Strike Damage",
+      "+38 Weapon Vitality Damage",
+      "65% increased Attack Damage",
+      "27% More Damage to Humanoids",
+      "+34 Vigor"
     ],
     "unique_effects": [
-      "15% Chance to Stun for 1 second on Hit"
+      "Primary Attack has 15% Chance to Stun for 1 second on Hit",
+      "60% increased Material Collection Range"
     ],
     "flavor_text": "A club made of junk, seemingly for a creature the size of a cyclops.",
     "requirements": "MGT 251",
@@ -335,14 +339,14 @@ export const items: Item[] = [
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "24% increased Cold Damage",
-      "23% increased Fire Damage",
-      "29% increased Lightning Damage",
-      "26% increased Poison Damage",
-      "+10 Energy Regeneration per second"
+      "41% increased Elemental Damage",
+      "10% increased Cast Speed",
+      "+31 Energy",
+      "+3.9 Energy Regeneration per second",
+      "+21 Knowledge"
     ],
     "unique_effects": [
-      "Generating Overload grants 15% increased Cast Speed for 2 seconds"
+      "+2 Capacity to Spells"
     ],
     "flavor_text": "A weird magical spear used in ichthian rituals.",
     "requirements": "KNO 230",
