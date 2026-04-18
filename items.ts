@@ -910,21 +910,24 @@ export const items: Item[] = [
     "item_name": "Perdix' Sphere",
     "item_type": "2h Club",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "212-234",
-      "lightning_damage": "169-187",
-      "strike_damage": "42-47",
+      "total_damage": "250-276",
+      "lightning_damage": "200-221",
+      "strike_damage": "50-55",
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "20% increased Energy",
-      "31% increased Lightning Damage",
-      "+30% Lightning Resistance",
-      "+207 Energy Barrier",
-      "29% increased Ailment Power"
+      "59% increased Overload Skills Damage",
+      "85% increased Lightning Damage",
+      "+64 Energy",
+      "+11.3 Energy Regeneration per second",
+      "+155 Energy Barrier"
     ],
-    "unique_effects": [],
+    "unique_effects": [
+      "+2 Capacity to Lightning Skills",
+      "Your Primary Attack has 5% Chance per Overload to Stun for 2 Seconds on Hit.\nCleanse 10 Overload stacks for each Enemy stunned by this effect"
+    ],
     "flavor_text": "While ingenuity ran in the family, Perdix had a special interest in iron and magnetism.",
     "requirements": "KNO 230",
     "gold_value": 7072
