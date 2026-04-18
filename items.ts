@@ -329,21 +329,21 @@ export const items: Item[] = [
     "item_name": "Cuttlebone Standard",
     "item_type": "Spear",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "pierce_damage": "49-54",
-      "cold_damage": "25-27",
-      "fire_damage": "25-27",
-      "lightning_damage": "25-27",
+      "total_damage": "144-160",
+      "pierce_damage": "58-64",
+      "cold_damage": "29-32",
+      "fire_damage": "29-32",
+      "lightning_damage": "29-32",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "41% increased Elemental Damage",
-      "10% increased Cast Speed",
-      "+31 Energy",
-      "+3.9 Energy Regeneration per second",
-      "+21 Knowledge"
+      "76% increased Elemental Damage",
+      "13% increased Cast Speed",
+      "+39 Energy",
+      "+7.2 Energy Regeneration per second",
+      "+19 Knowledge"
     ],
     "unique_effects": [
       "+2 Capacity to Spells"
@@ -356,21 +356,22 @@ export const items: Item[] = [
     "item_name": "Dam Breaker",
     "item_type": "2h Club",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
       "total_damage": "233-257",
       "strike_damage": "233-257",
       "attack_speed": "0.91x"
     },
     "magical_properties": [
-      "44% increased Strike Damage",
+      "+104 Weapon Strike Damage",
+      "68% increased Strike Damage",
+      "25% increased Stun Duration",
+      "+163 Free Barrier",
       "+257 Health",
-      "50% increased Ailment Chance",
-      "42% increased Ailment Duration",
-      "39% increased Ailment Power"
+      "69% increased Ailment Chance"
     ],
     "unique_effects": [
-      "20% Chance to Trigger a Rupture when hitting channeling Enemies"
+      "29% increased Base Weapon Damage against Incapacitated or Channeling Enemies"
     ],
     "flavor_text": "An extremely heavy sledgehammer.",
     "requirements": "MIG 230",
@@ -388,13 +389,15 @@ export const items: Item[] = [
       "attack_speed": "1.4x"
     },
     "magical_properties": [
-      "31% increased Cold Damage",
-      "26% increased Vitality Damage",
-      "+26 Weapon Vitality Damage",
-      "+32 Energy"
+      "+92 Weapon Vitality Damage",
+      "41% increased Cold Damage",
+      "42% increased Vitality Damage",
+      "+33 Energy",
+      "+26 Health recovered on Kill"
     ],
     "unique_effects": [
-      "30% Increased Lifesteal"
+      "36% Increased Lifesteal",
+      "+9% to all Magical Resistances"
     ],
     "flavor_text": "A cursed sword from the land of the midnight sun.",
     "requirements": "RSV 241",
@@ -404,20 +407,23 @@ export const items: Item[] = [
     "item_name": "Fell Blade",
     "item_type": "Dagger",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "102-112",
-      "pierce_damage": "51-56",
-      "fire_damage": "51-56",
+      "total_damage": "120-132",
+      "pierce_damage": "60-66",
+      "fire_damage": "60-66",
       "attack_speed": "1.56x"
     },
     "magical_properties": [
-      "+46 Weapon Fire Damage",
-      "+26% Fire Resistance",
-      "19% increased Pierce Damage",
-      "10% increased Attack Speed"
+      "+28 Weapon Fire Damage",
+      "+59 Weapon Pierce Damage",
+      "10% increased Attack Speed",
+      "46% increased Ailment Chance"
     ],
-    "unique_effects": [],
+    "unique_effects": [
+      "42% increased Rupture Damage",
+      "Unlock Burn - Rupture"
+    ],
     "flavor_text": "An sinister weapon premanently burning with unholy fire.",
     "requirements": "KNO 230",
     "gold_value": 3351
@@ -473,23 +479,23 @@ export const items: Item[] = [
     "item_name": "Fungus Log",
     "item_type": "2h Club",
     "rarity": "Epic",
-    "required_level": 26,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "107-119",
-      "strike_damage": "54-59",
-      "poison_damage": "54-59",
+      "total_damage": "250-276",
+      "strike_damage": "50-55",
+      "poison_damage": "200-221",
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "26% increased Poison Damage",
-      "26% increased Strike Damage",
-      "+29% Poison Resistance",
-      "+103 Health",
-      "40% increased Ailment Chance",
-      "39% increased Ailment Duration"
+      "101% increased Poison Damage",
+      "+213 Health",
+      "25% increased Ailment Duration",
+      "+15% Lightning Resistance",
+      "+15% Poison Resistance"
     ],
     "unique_effects": [
-      "+3 Maximum Plagued Stacks"
+      "+3 Maximum Plagued Stacks",
+      "+11% Base Weapon Ailment Chance"
     ],
     "flavor_text": "Emits a cloud of spores when shaken.",
     "requirements": "FIT 160",
