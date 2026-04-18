@@ -926,7 +926,7 @@ export const items: Item[] = [
     ],
     "unique_effects": [
       "+2 Capacity to Lightning Skills",
-      "Your Primary Attack has 5% Chance per Overload to Stun for 2 Seconds on Hit.\nCleanse 10 Overload stacks for each Enemy stunned by this effect"
+      "Your Primary Attack has 5% Chance per Overload to Stun for 2 Seconds on Hit. Cleanse 10 Overload stacks for each Enemy stunned by this effect"
     ],
     "flavor_text": "While ingenuity ran in the family, Perdix had a special interest in iron and magnetism.",
     "requirements": "KNO 230",
@@ -936,22 +936,22 @@ export const items: Item[] = [
     "item_name": "Raging Bull",
     "item_type": "2h Axe",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "212-234",
-      "strike_damage": "142-157",
-      "pierce_damage": "70-77",
+      "total_damage": "250-276",
+      "strike_damage": "167-185",
+      "pierce_damage": "82-91",
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "25% Stun Resistance",
-      "+159 Strike Armor",
-      "+37 Weapon Strike Damage",
-      "+14 Health Regeneration per Second",
-      "12% increased Movement Speed"
+      "+48 Weapon Strike Damage",
+      "81% increased Strike Damage",
+      "+213 Armor",
+      "+27% Stun Resistance",
+      "+186 Health"
     ],
     "unique_effects": [
-      "4% increased Weapon Attack Damage per Rage Stack"
+      "7% increased Weapon Attack Damage and 1% increased Movement Speed per Rage Stack"
     ],
     "flavor_text": "This massive axe that once hung above the entrance to the Labyrinth in Knossos.",
     "requirements": "MIG 230",
@@ -963,20 +963,25 @@ export const items: Item[] = [
     "rarity": "Epic",
     "required_level": 45,
     "base_stats": {
-      "total_damage": "147-163",
-      "pierce_damage": "44-49",
-      "strike_damage": "44-49",
-      "fire_damage": "59-65",
+      "total_damage": "173-191",
+      "pierce_damage": "52-57",
+      "strike_damage": "52-57",
+      "fire_damage": "69-76",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "+10% Bleeding and Poison Resistance",
-      "46% increased Strike Damage",
-      "+28 Might",
-      "37% increased Ailment Chance"
+      "+63 Weapon Fire Damage",
+      "71% increased Fire Damage",
+      "41% increased Strike Damage",
+      "43% increased Pierce Damage",
+      "+14% Bleeding Resistance",
+      "+16% Poison Resistance",
+      "+33 Might",
+      "+25% Glancing Hits Chance",
+      "72% increased Ailment Chance"
     ],
     "unique_effects": [
-      "Hitting an enemy with your Primary Attack has a 10% chance of causing an explosion dealing Fire Damage in a 3m area around your target."
+      "Hitting an enemy with your Primary Attack has a 20% chance of causing an explosion dealing Fire Damage in a 3m area around your target."
     ],
     "flavor_text": "A bow that hits with unusually explosive force.",
     "requirements": "MIG 230",
@@ -986,21 +991,24 @@ export const items: Item[] = [
     "item_name": "Ratcatcher's Stick",
     "item_type": "1h Club",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "poison_damage": "98-108",
-      "strike_damage": "25-27",
+      "total_damage": "144-160",
+      "poison_damage": "116-128",
+      "strike_damage": "29-32",
       "attack_speed": "1.12x"
     },
     "magical_properties": [
-      "33% increased Poison Damage",
-      "+19% Poison Resistance",
-      "11% increased Attack Speed"
+      "+30 Weapon Poison Damage",
+      "14% increased Attack Speed",
+      "+18% Poison Resistance",
+      "6% increased Movement Speed",
+      "22% increased Dodge Range"
+      
     ],
     "unique_effects": [
-      "Hitting an enemy with your Primary Attack has a 15% chance of causing an explosion in a 3m area, dealing Poison Damage with a 30% Ailment Chance.",
-      "44% more Damage to vermin (Spiders, Bats, etc.)"
+      "45% more Damage to vermin (Spiders, Bats, etc.)",
+      "37% increased Cooldown Rate to Poison Skills"
     ],
     "flavor_text": "When rats were breeding in the sewers, Tegean citizens developed an unsettling mixture of volatile poisons.",
     "requirements": "KNO 230",
@@ -1018,15 +1026,16 @@ export const items: Item[] = [
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "+49 Weapon Cold Damage",
-      "+28% Cold Resistance",
-      "51% increased Cold Damage",
-      "16% increased Energy",
-      "+46 Weapon Pierce Damage",
-      "10% increased Attack Speed",
-      "21% increased Movement Skill Cooldown Rate"
+      "+40 Weapon Cold Damage",
+      "69% increased Cold Damage",
+      "12% increased Attack and Cast Speed",
+      "+23% Cold Resistance",
+      "+36 Energy",
+      "19% increased Movement Skill Cooldown Rate"
     ],
-    "unique_effects": [],
+    "unique_effects": [
+      "+2 Capacity to Movement Skills"
+    ],
     "flavor_text": "When Demeter lifted the eternal winter, only this axe remained.",
     "requirements": "RSV 241",
     "gold_value": 9431
@@ -1035,23 +1044,24 @@ export const items: Item[] = [
     "item_name": "Sagaris Karkinos",
     "item_type": "1h Axe",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "pierce_damage": "86-95",
-      "strike_damage": "37-41",
+      "total_damage": "144-160",
+      "pierce_damage": "101-112",
+      "strike_damage": "43-48",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "+35 Weapon Cold Damage",
-      "+142 Pierce Armor",
-      "+183 Health",
-      "24% increased Critical Hit chance",
-      "+3% Base Weapon Critical Hit Chance"
+      "+26 Weapon Pierce Damage",
+      "24% increased Strike Damage",
+      "25% increased Pierce Damage",
+      "61 Pierce Retaliation",
+      "+358 Pierce Armor",
+      "+16 Health recovered on Kill"
     ],
     "unique_effects": [
-      "+23% Base Weapon Ailment Chance",
-      "+2 Maximum Bleeding Stacks"
+      "+1 Maximum Bleeding Stacks",
+      "+3% Base Weapon Ailment Chance"
     ],
     "flavor_text": "An axe fashioned from razor-sharp crab claws.",
     "requirements": "MIG 322",
@@ -1063,20 +1073,21 @@ export const items: Item[] = [
     "rarity": "Epic",
     "required_level": 45,
     "base_stats": {
-      "total_damage": "123-135",
-      "pierce_damage": "61-68",
-      "leech_damage": "61-68",
+      "total_damage": "144-160",
+      "pierce_damage": "72-80",
+      "leech_damage": "72-80",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "11% More Damage to Undead",
-      "5% increased Health",
-      "+44 Weapon Vitality Damage",
-      "23% increased Ailment Chance"
+      "+74 Weapon Vitality Damage",
+      "14% More Damage to Undead",
+      "10% increased Attack Speed",
+      "+186 Health",
+      "53% increased Ailment Chance"
     ],
     "unique_effects": [
-      "Consuming Overwhelm creates an explosion dealing Spirit Damage in a 3m Radius Area around you.",
-      "20% increased Damage against Shadow Creatures"
+      "24% increased Lifesteal",
+      "+4% Base Lifesteal to Vitality Damage"
     ],
     "flavor_text": "A dark aura surrounds this old dory.",
     "requirements": "CUN 224",
@@ -1086,21 +1097,22 @@ export const items: Item[] = [
     "item_name": "Shiverblood",
     "item_type": "Spear",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "cold_damage": "92-102",
-      "pierce_damage": "31-34",
+      "total_damage": "144-160",
+      "cold_damage": "108-120",
+      "pierce_damage": "36-40",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "20% increased Cold Damage",
-      "+11% Glancing Hits Chance",
-      "21% increased Ailment Duration",
-      "25% increased Ailment Power"
+      "+20 Weapon Cold Damage",
+      "38% increased Cold Damage",
+      "+212 Free Barrier",
+      "38% increased Cooldown Rate to Disruption Skills"
     ],
     "unique_effects": [
-      "Every 10 seconds, hitting enemies with a Weapon Attack Freezes them for 1s"
+      "+2 Capacity to Cold Skills",
+      "Gain 25% of your Maximum Barrier as Barrier when freezing an Enemy"
     ],
     "flavor_text": "A masterpiece from the Temple of Kheimon, prime purveyor of cold-enchanted weapons and silent guardsmen.",
     "requirements": "RES 224",
@@ -1110,23 +1122,24 @@ export const items: Item[] = [
     "item_name": "Silence",
     "item_type": "Sword",
     "rarity": "Epic",
-    "required_level": 29,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "58-64",
-      "spirit_damage": "29-32",
-      "lightning_damage": "29-32",
+      "total_damage": "120-132",
+      "spirit_damage": "60-66",
+      "lightning_damage": "60-66",
       "attack_speed": "1.4x"
     },
     "magical_properties": [
-      "+18 Weapon Lightning Damage",
-      "17% increased Lightning Damage",
-      "18% increased Spirit Damage",
-      "+21 Energy",
-      "13% increased Cooldown Rate"
+      "+16 Weapon Lightning Damage",
+      "63% increased Lightning Damage",
+      "7% increased Attack and Cast Speed",
+      "+18 Energy",
+      "+2.7 Energy Regeneration per second",
+      "+2 Energy recovered on Kill"
     ],
     "unique_effects": [
-      "+6% to all Magical Resistances",
-      "10% chance to Silence enemies on Hit"
+      "When you Silence an Enemy, generate an Explosion in a 3m radius dealing Spirit Damage and leaving all Enemies hit Vulnerable for 5 seconds (Unique Effect)",
+      "Unlock Weakened - Silence (Chance to Silence Enemies when applying Weakened)"
     ],
     "flavor_text": "Created by a king to break a nymph's spell, this sword sparks fear in the hearts of magic-users.",
     "requirements": "KNO 123",
@@ -1136,22 +1149,22 @@ export const items: Item[] = [
     "item_name": "Soul Carver",
     "item_type": "Sword",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "102-112",
-      "spirit_damage": "51-56",
-      "pierce_damage": "25-28",
-      "strike_damage": "25-28",
+      "total_damage": "120-132",
+      "spirit_damage": "60-66",
+      "pierce_damage": "60-66",
       "attack_speed": "1.4x"
     },
     "magical_properties": [
-      "27% increased Spirit Damage",
-      "+23 Weapon Vitality Damage",
-      "+242 Energy Barrier",
-      "24% increased Ailment Chance"
+      "+50 Weapon Spirit Damage",
+      "55% increased Spirit Damage",
+      "12% increased Attack and Cast Speed",
+      "16% increased Cooldown Rate"
     ],
     "unique_effects": [
-      "Consuming Overwhelm creates an explosion dealing Spirit Damage in a 3m Radius Area around you."
+      "35% increased Lifesteal",
+      "+4% Base Lifesteal to Spirit Damage"
     ],
     "flavor_text": "A shining blade that wounds the spirit as much as the body.",
     "requirements": "CUN 224",
@@ -1169,15 +1182,15 @@ export const items: Item[] = [
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "22% increased Poison Damage",
-      "+37 Weapon Poison Damage",
-      "Summons have 25% increased Damage",
-      "Summons have 10% increased All Speed",
-      "43% increased Ailment Chance",
-      "10% increased Attack Speed"
+      "+15 Weapon Poison Damage",
+      "28% increased Damage over Time",
+      "40% increased Poison Damage",
+      "Summons have 33% increased Damage",
+      "Summons have 13% increased All Speed",
+      "14% increased Movement Speed"
     ],
     "unique_effects": [
-      "Bleeding Enemies are slowed by 20%"
+      "Your Summons have 8% More Damage against Bleeding Enemies"
     ],
     "flavor_text": "The legendary Amazon queen inspired her followers by leading from the front.",
     "requirements": "AGI 251",
@@ -1187,22 +1200,22 @@ export const items: Item[] = [
     "item_name": "Storm Strike",
     "item_type": "Bow",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "147-163",
-      "pierce_damage": "44-49",
-      "lightning_damage": "103-114",
+      "total_damage": "173-191",
+      "pierce_damage": "52-57",
+      "lightning_damage": "121-134",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "+67 Weapon Lightning Damage",
-      "49% increased Lightning Damage",
-      "+19 Agility",
-      "25% increased Cooldown Rate",
-      "14% increased Movement Speed"
+      "+26 Weapon Lightning Damage",
+      "65% increased Lightning Damage",
+      "+40 Agility",
+      "16% increased Cooldown Rate",
+      "16% increased Movement Speed"
     ],
     "unique_effects": [
-      "Generating Overload grants 50% increased Critical Hit Chance for 2 seconds"
+      "After using a Non-Basic Active Skill, your Basic Skills gain 24% increased Total Lightning Damage and +10% Critical Hit Chance for 4s"
     ],
     "flavor_text": "A weapon enchanted with the power of wind and lightning.",
     "requirements": "AGI 230",
