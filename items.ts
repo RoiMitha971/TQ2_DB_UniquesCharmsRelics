@@ -556,24 +556,24 @@ export const items: Item[] = [
     "item_name": "Harpe",
     "item_type": "2h Axe",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "147-163",
-      "fire_damage": "88-98",
-      "strike_damage": "44-49",
-      "pierce_damage": "15-16",
+      "total_damage": "173-191",
+      "fire_damage": "104-115",
+      "strike_damage": "52-57",
+      "pierce_damage": "17-19",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "+70 Weapon Fire Damage",
-      "+47% Fire Resistance",
-      "41% increased Fire Damage",
-      "+10 Energy Regeneration per second",
-      "+24% Glancing Hits Chance",
-      "10% increased Attack Speed"
+      "+71 Weapon Fire Damage",
+      "15% increased Attack and Cast Speed",
+      "+35 Energy",
+      "+5.7 Energy Regeneration per second",
+      "+26% Glancing Hits Chance",
+      "19% increased Movement Skill Cooldown Rate"
     ],
     "unique_effects": [
-      "Hitting an enemy with your Primary Attack grants 15% increased Movement Speed for 1 second"
+      "Gain 0.4% increased Fire Damage per Agility point"
     ],
     "flavor_text": "The flames of Hephaistos's forge still burn in this weapon's blade.",
     "requirements": "AGI 230",
@@ -592,15 +592,16 @@ export const items: Item[] = [
       "attack_speed": "1.12x"
     },
     "magical_properties": [
-      "+37 Weapon Cold Damage",
-      "+41 Weapon Poison Damage",
-      "+52 Energy",
-      "+9 Energy Regeneration per second",
-      "12% increased Movement Speed",
-      "Summons have +27% to All Resistances"
+      "+33 Weapon Cold Damage",
+      "+56 Weapon Poison Damage",
+      "49% increased Attack Damage",
+      "+32 Energy",
+      "+5.3 Energy Regeneration per second",
+      "14% increased Movement Speed"
     ],
     "unique_effects": [
-      "+6% to all Magical Resistances"
+      "+1 Capacity to Primary Attack",
+      "+7% to all Magical Resistances"
     ],
     "flavor_text": "For centuries the creature lay in wait, lurking in its prison of stone, until you slew it.",
     "requirements": "RSV 354",
@@ -610,20 +611,22 @@ export const items: Item[] = [
     "item_name": "Huntsman's Barb",
     "item_type": "Spear",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "pierce_damage": "123-135",
+      "total_damage": "144-160",
+      "pierce_damage": "144-160",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "22% increased Pierce Damage",
-      "40% increased Ailment Chance",
-      "18% increased Ailment Power",
-      "11% increased Attack Speed"
+      "+15 Weapon Pierce Damage",
+      "18% More Damage to Wildlife",
+      "22% increased Attack Damage",
+      "+23 Agility",
+      "Summons have 35% increased Damage",
+      "+22 Health recovered on Kill"
     ],
     "unique_effects": [
-      "30% More Damage to Boars, Wolves and Lions"
+      "You and your Summons gain 14% increased All Speed"
     ],
     "flavor_text": "A spear that always strikes true, enchanted by Artemis as a gift to Orion.",
     "requirements": "FIT 224",
@@ -633,20 +636,23 @@ export const items: Item[] = [
     "item_name": "Ilektrisimos",
     "item_type": "Staff",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "147-163",
-      "lightning_damage": "147-163",
+      "total_damage": "173-191",
+      "lightning_damage": "173-191",
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "50% increased Lightning Damage",
-      "+29% Lightning Resistance",
-      "7% increased Attack and Cast Speed",
-      "53% increased Ailment Chance",
-      "46% increased Ailment Duration"
+      "100% increased Lightning Damage",
+      "+22% Lightning Resistance",
+      "+30 Energy",
+      "+5.3 Energy Regeneration per second",
+      "78% increased Ailment Chance",
     ],
-    "unique_effects": [],
+    "unique_effects": [
+      "+1 Capacity to Lightning Skills",
+      "Every 3 seconds, Hitting an Enemy with a Weapon Attack or a Lightning Skill causes Lightning Arcs to Hit all Enemies within a 4m Area around your target"
+    ],
     "flavor_text": "Crafting Zeus' thunderbolt took many failed attempts, some more promising than others.",
     "requirements": "CUN 298",
     "gold_value": 6581
@@ -682,22 +688,22 @@ export const items: Item[] = [
     "item_name": "Katharsis",
     "item_type": "Dagger",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "102-112",
-      "lightning_damage": "51-56",
-      "pierce_damage": "51-56",
+      "total_damage": "120-132",
+      "lightning_damage": "60-66",
+      "pierce_damage": "60-66",
       "attack_speed": "1.56x"
     },
     "magical_properties": [
-      "+35 Weapon Lightning Damage",
-      "10% increased Energy",
-      "30% increased Lightning Damage",
-      "10% increased Attack Speed",
-      "11% increased Cast Speed"
+      "+39 Weapon Lightning Damage",
+      "64% increased Lightning Damage",
+      "11% increased Attack and Cast Speed",
+      "+25 Agility"
     ],
     "unique_effects": [
-      "When you have full overwhelm, generating more spends it on an explosion dealing Lightning Damage in a 3m Radius Area around you."
+      "19% increased Lightning Strikes Damage", 
+      "20% to Hit a random Enemy with a Lightning Strike when cleansing Overlad. (Scales with Lightning Strike chance)"
     ],
     "flavor_text": "A unique weapon, tempered by Zeus's thunderbolt. It crackles with energy.",
     "requirements": "AGI 230",
