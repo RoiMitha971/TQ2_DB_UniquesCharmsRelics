@@ -468,6 +468,21 @@ export const relicsAndCharms: RelicCharm[] = [
   },
   {
     "category": "Relic",
+    "item_name": "Artemis' Bowstring",
+    "item_type": "Relic",
+    "stats": [
+      "20/40/60% increased Pierce Damage",
+      "3/6/9% increased Attack Speed"
+    ],
+    "completion_bonus": [
+      "20% increased Rage Effect"
+    ],
+    "enchantable_slots": [
+      "Bow"
+    ]
+  },
+  {
+    "category": "Relic",
     "item_name": "Blade of Thanatos",
     "item_type": "Relic",
     "stats": [
@@ -546,6 +561,39 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Necklaces"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Eternal Rose of Aphrodite",
+    "item_type": "Relic",
+    "stats": [
+      "10/20/30% increased Vitality Damage",
+      "3/6/9% increased Lifesteal",
+      "20/40/60% increased Weakened Ailment Power"
+    ],
+    "completion_bonus": [
+      "+2 Maximum Weakened Stacks",
+      "10% increased Lifesteal against Weakened enemies"
+    ],
+    "enchantable_slots": [
+      "All Weapons"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Hades' Helm of Darkness",
+    "item_type": "Relic",
+    "stats": [
+      "15/30/45% increased Cold Damage",
+      "3/6/9% Magical Resistances"
+    ],
+    "completion_bonus": [
+      "10% of Energy Reserved",
+      "10% more Cold Damage, 2x against Undead"
+    ],
+    "enchantable_slots": [
+      "Head Armor"
     ]
   },
   {
@@ -659,6 +707,23 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Rings",
       "Necklaces"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Poseidon's Trident",
+    "item_type": "Relic",
+    "stats": [
+      "15/30/45% increased Spell Damage",
+      "4/8/12% Lightning Resistance",
+      "30/5/10% Shicked Resistance"
+    ],
+    "completion_bonus": [
+      "Every 3s, 100% chance to apply Weakened to all enemies within 3m area",
+      "9% increased Weakened Ailment Power"
+    ],
+    "enchantable_slots": [
+      "All Armor"
     ]
   },
   {
