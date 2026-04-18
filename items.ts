@@ -432,21 +432,22 @@ export const items: Item[] = [
     "item_name": "Fotia",
     "item_type": "Staff",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "147-163",
-      "fire_damage": "147-163",
+      "total_damage": "173-191",
+      "fire_damage": "173-191",
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "+47 Weapon Fire Damage",
-      "54% increased Fire Damage",
-      "+54 Energy",
-      "42% increased Ailment Chance",
-      "10% increased Cast Speed"
+      "+103 Weapon Fire Damage",
+      "149% increased Fire Damage",
+      "17% increased Attack and Cast Speed",
+      "89% increased Ailment Chance",
+      "37% increased Ailment Power"
+      
     ],
     "unique_effects": [
-      "10% increased Damage to Channel Spells"
+      "+2 Capacity to Fire Skills"
     ],
     "flavor_text": "A staff infused with the very essence of fire.",
     "requirements": "KNO 230",
@@ -456,20 +457,23 @@ export const items: Item[] = [
     "item_name": "Frostbite",
     "item_type": "1h Axe",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "cold_damage": "82-91",
-      "pierce_damage": "40-45",
+      "total_damage": "144-160",
+      "cold_damage": "97-107",
+      "pierce_damage": "48-53",
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "12% increased Total Damage",
-      "12% increased Attack Speed"
+      "+34 Weapon Cold Damage",
+      "60% increased Cold Damage",
+      "24% increased Freeze Duration",
+      "34% increased Ailment Chance"
     ],
     "unique_effects": [
-      "Every 10 seconds, hitting enemies with a Weapon Attack Freezes them for 1s",
-      "40% increased Critical Hit chance against Frozen Enemies"
+      "+1 Capacity to Cold Skills",
+      "+8% Critical Hit chance against Chilled Enemies",
+      "Unlock Chill - Freeze"
     ],
     "flavor_text": "An insidious weapon designed to freeze and shatter living beings.",
     "requirements": "RES 224",
