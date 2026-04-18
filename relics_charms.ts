@@ -451,7 +451,7 @@ export const relicsAndCharms: RelicCharm[] = [
   },
   {
     "category": "Relic",
-    "item_name": "Archimedes Mirror",
+    "item_name": "Archimede's Mirror",
     "item_type": "Relic",
     "stats": [
       "+4/8/12% Glancing Hits Chance",
