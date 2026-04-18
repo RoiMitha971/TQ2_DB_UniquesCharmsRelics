@@ -481,6 +481,24 @@ export const relicsAndCharms: RelicCharm[] = [
       "Bow"
     ]
   },
+   {
+    "category": "Relic",
+    "item_name": "Atalanta's Beauty",
+    "item_type": "Relic",
+    "stats": [
+      "10/20/30% increased Strike Damage",
+      "2/4/6% increased Attack and Cast Speed",
+      "7/14/21% increased Stun Duration"
+    ],
+    "completion_bonus": [
+      "Unlocks Stagger - Stun (chance to Stun when applying Staggered Ailment)",
+      "10% increased Total Strike Damage against Incapacitated Enemies",
+      "+2 Maximum Staggered Stacks"
+    ],
+    "enchantable_slots": [
+      "All Weapons"
+    ]
+  },
   {
     "category": "Relic",
     "item_name": "Blade of Thanatos",
@@ -511,6 +529,21 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Bow"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Charon's Obol",
+    "item_type": "Relic",
+    "stats": [
+      "3/6/9% increased Gold and Experience gained in combat",
+      "+30 Energy Reserved"
+    ],
+    "completion_bonus": [
+      "9% increased Movement Speed"
+    ],
+    "enchantable_slots": [
+      "Jewelry"
     ]
   },
   {
@@ -550,7 +583,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Demeter's Duality",
     "item_type": "Relic",
     "stats": [
-      "3/4/9% increased Health",
+      "3/6/9% increased Health",
       "4/8/12% increased Health Regeneration",
       "-20% Cold Resistance",
       "+30 Energy Reserved"
@@ -561,6 +594,39 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Necklaces"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Dionysos' Wineskin",
+    "item_type": "Relic",
+    "stats": [
+      "3/6/9 Health per Level",
+      "+5/10/15 Armor per Level"
+    ],
+    "completion_bonus": [
+      "Gain 5% of your Maximum Barrier as Barrier for every 100 Energy spent",
+      "Gain 20% of your Maximum Barrier as Barrier Decay Threshold",
+      "50% more Barrier Decay Rate"
+    ],
+    "enchantable_slots": [
+      "Jewelry"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Eris' Strife",
+    "item_type": "Relic",
+    "stats": [
+      "10/20/30% increased Ailment Power",
+      "3/6/9% increased Attack and Cast Speed",
+      "15% more Damage taken from Ailments"
+    ],
+    "completion_bonus": [
+      "Enemies take 3% more Damage per Ailment they suffer"
+    ],
+    "enchantable_slots": [
+      "Head Armor"
     ]
   },
   {
@@ -594,6 +660,23 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Head Armor"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Helios' Sun Crown",
+    "item_type": "Relic",
+    "stats": [
+      "10/20/30% increased Cooldown Rate",
+      "10/20/30% increased Fire Damage",
+      "5/10/15% Fire Resistance"
+    ],
+    "completion_bonus": [
+      "+2 Capacity to Fire Skills",
+      "Enemies within 6m have -7% Fire Resistance"
+    ],
+    "enchantable_slots": [
+      "All Armor"
     ]
   },
   {
@@ -662,6 +745,23 @@ export const relicsAndCharms: RelicCharm[] = [
   },
   {
     "category": "Relic",
+    "item_name": "Hubris of Bellerophon",
+    "item_type": "Relic",
+    "stats": [
+      "10/20/30% increased Pierce Damage",
+      "10/20/30% increased Bleeding Ailment Power",
+      "7/14/21% increased Bleeding Ailment Duration"
+    ],
+    "completion_bonus": [
+      "+2 Maximum Bleeding Stacks",
+      "10% increased Total Pierce Damage against Bleeding Enemies"
+    ],
+    "enchantable_slots": [
+      "All Weapons"
+    ]
+  },
+  {
+    "category": "Relic",
     "item_name": "Iron Will of Ajax",
     "item_type": "Relic",
     "stats": [
@@ -692,6 +792,23 @@ export const relicsAndCharms: RelicCharm[] = [
       "All Weapons"
     ]
   },
+   {
+    "category": "Relic",
+    "item_name": "Pandora's Box",
+    "item_type": "Relic",
+    "stats": [
+      "15/30/45% increased Poison Damage",
+      "+4/8/12% Poison Resistance",
+      "+5/10/15% Plagued Resistance"
+    ],
+    "completion_bonus": [
+      "Every 3s, 100% chance to apply Weakened to all Enemies within a 3m radius",
+      "9% increased Plagued Ailment Power"
+    ],
+    "enchantable_slots": [
+      "All Armor"
+    ]
+  },
   {
     "category": "Relic",
     "item_name": "Persephone's Tears",
@@ -716,7 +833,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "stats": [
       "15/30/45% increased Spell Damage",
       "4/8/12% Lightning Resistance",
-      "30/5/10% Shicked Resistance"
+      "30/5/10% Shocked Resistance"
     ],
     "completion_bonus": [
       "Every 3s, 100% chance to apply Weakened to all enemies within 3m area",
@@ -758,6 +875,52 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Arm Armor"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Selene's Moonlight",
+    "item_type": "Relic",
+    "stats": [
+      "15/30/45% increased Spell Damage",
+      "+5/10/15% Cold Resistance"
+    ],
+    "completion_bonus": [
+      "Killing grants +3 Energy Regeneration for 4s (stacks 4x)"
+    ],
+    "enchantable_slots": [
+      "All Armor"
+    ]
+  },
+  {
+    "category": "Relic",
+    "item_name": "Theia's Brilliance",
+    "item_type": "Relic",
+    "stats": [
+      "4/8/12% increased Attributes"
+    ],
+    "completion_bonus": [
+      "20% increased Gold gained from Elite Creatures"
+    ],
+    "enchantable_slots": [
+      "Rings"
+    ]
+  },
+   {
+    "category": "Relic",
+    "item_name": "Typhon's Serpentine Fang",
+    "item_type": "Relic",
+    "stats": [
+      "20/40/60% increased Fire Damage",
+      "+8/16/24% Lightning Resistance",
+      "-20% Fire Resistance"
+    ],
+    "completion_bonus": [
+      "Unlock Burn - Rupture (chance to cause Rupture when applying Burn)",
+      "20% increased Burning Ailment Chance"
+    ],
+    "enchantable_slots": [
+      "All Weapons"
     ]
   },
   {
