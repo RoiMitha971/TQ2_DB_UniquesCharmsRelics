@@ -11,47 +11,76 @@ export interface RelicCharm {
 export const relicsAndCharms: RelicCharm[] = [
   {
     "category": "Charm",
+    "item_name": "Beast Tail",
+    "item_type": "Charm",
+    "stats": [
+      "8/16/24% increased Poison Damage",
+      "8/16/24% increased Lightning Damage"
+    ],
+    "completion_bonus": [
+      "+8% Poison Resistance",
+      "+8% Lightning Resistance"
+    ],
+    "enchantable_slots": [
+      "All Weapons, Talisman, Arm Armor"
+    ],
+    "dropped_by": "Ketos Spawn, Hippocampos Foal, Crocolisk"
+  },
+  {
+    "category": "Charm",
+    "item_name": "Blighted Essence",
+    "item_type": "Charm",
+    "stats": [
+      "12/24/36% increased Ailment Chance"
+    ],
+    "completion_bonus": [
+      "5% increased Ailment Power"
+    ],
+    "enchantable_slots": [
+      "Jewelry, All Weapons"
+    ],
+    "dropped_by": "Skeleton - Evoker"
+  },
+  {
+    "category": "Charm",
     "item_name": "Boarman Blood",
     "item_type": "Charm",
     "stats": [
-      "4/8/12% increased Health"
+      "3/6/9% increased Attack and Cast Speed"
     ],
     "completion_bonus": [
-      "+10% Poison Resistance",
-      "+10% Lightning Resistance"
+      "20% increased Attack Damage"
     ],
     "enchantable_slots": [
-      "Shoulder Armor"
+      "Arm Armor, Necklace"
     ],
-    "dropped_by": "Boarmen"
+    "dropped_by": "Boarman - geomancer, leader"
   },
   {
     "category": "Charm",
     "item_name": "Boar Hide",
     "item_type": "Charm",
     "stats": [
-      "+10/20/30 Might",
-      "+2/4/6 Pierce Armor per Level"
+      "+8/16/24 Might",
+      "+5/10/15% Glancing Hit Chance"
     ],
     "completion_bonus": [
-      "+20% Bleeding Resistance",
-      "Summons have +20% to All Resistances"
+      "5 Armor per Level"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Jewelry"
     ],
-    "dropped_by": "Boars, Boarmen"
+    "dropped_by": "Boar, Monstrous Boar, Boarmen"
   },
   {
     "category": "Charm",
     "item_name": "Centaur Hoof",
     "item_type": "Charm",
     "stats": [
-      "+2/4/6 Strike Armor per Level",
-      "+2/4/6 Pierce Armor per Level"
+      "3/6/9% increased Movement Speed"
     ],
     "completion_bonus": [
-      "8% increased Movement Speed"
+      "10% increased Movement Skill Cooldown Rate"
     ],
     "enchantable_slots": [
       "Leg Armor"
@@ -431,7 +460,12 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Shield"
-    ]
+    ],
+    "dropped_in": [
+      "Chapter 1"
+    ],
+    "flavor_text":
+      "The Aegis is the shield of Athena, greek goddess of battle."
   },
   {
     "category": "Relic",
