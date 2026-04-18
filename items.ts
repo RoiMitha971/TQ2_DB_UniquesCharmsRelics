@@ -757,7 +757,7 @@ export const items: Item[] = [
       "+29% Lightning Resistance"      
     ],
     "unique_effects": [
-      "+2 Capacity to Lightning Skills"
+      "+2 Capacity to Lightning Skills",
       "+2 Levels to Storm Lightning Strike Passives"
     ],
     "flavor_text": "A large axe once gifted by Zeus to the king of Thracia.",
