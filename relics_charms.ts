@@ -461,7 +461,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Shield"
     ],
-    "dropped_in": [
+    "dropped_by": [
       "Chapter 1"
     ],
     "flavor_text":
