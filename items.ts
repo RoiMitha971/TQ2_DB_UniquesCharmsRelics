@@ -517,17 +517,15 @@ export const items: Item[] = [
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "33% increased Cold Damage",
-      "36% increased Spirit Damage",
-      "+11 Energy Regeneration per second",
-      "+213 Free Barrier",
-      "8% increased Attack and Cast Speed",
-      "-21 Energy Reserved",
-      "11% increased Movement Speed"
+      "67% increased Cold Damage",
+      "66% increased Spell Damage",
+      "22% increased Cast Speed",
+      "+53 Energy",
+      "+10.3 Energy Regeneration per second",
+      "13% increased Movement Speed",
+      "22% More Damage to enemy Elite Creatures"
     ],
-    "unique_effects": [
-      "13% More Damage to enemy Heroes and Bosses"
-    ],
+    "unique_effects": [],
     "flavor_text": "Holding this staff fills you with the vim of a new day.",
     "requirements": "KNL 251",
     "gold_value": 9715
@@ -536,23 +534,20 @@ export const items: Item[] = [
     "item_name": "Gryphon Hunter Shield",
     "item_type": "Shield",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "armor": 220,
-      "strike_resistance": 110,
-      "pierce_resistance": 110
+      "barrier":357,
+      "armor": 257
     },
     "magical_properties": [
-      "Shield: +307 Free Barrier",
-      "10% More Damage to Elite Creatures",
-      "+7% Bleeding and Poison Resistance",
-      "23% Impairment Resistance",
-      "17% Stun Resistance",
-      "+14% Glancing Hits Chance"
+      "+16% Bleeding Resistance",
+      "+13% Poison Resistance",
+      "32% Impairment Resistance",
+      "29% Stun Resistance",
+      "+14% Glancing Hits Chance",
+      "14% More Damage to Elite Creatures"
     ],
-    "unique_effects": [
-      "13% More Damage to enemy Heroes and Leaders"
-    ],
+    "unique_effects": [],
     "flavor_text": "The bigger the creature, the greater the glory.",
     "requirements": "FIT 298",
     "gold_value": 3545
