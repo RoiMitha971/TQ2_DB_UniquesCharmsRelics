@@ -717,23 +717,22 @@ export const items: Item[] = [
     "base_stats": {
       "total_damage": "208-230",
       "spirit_damage": "104-115",
-      "strike_damage": "104-115",
+      "strike_damage": "62-69",
+      "pierce_damage": "42-46",
       "attack_speed": "1.12x"
     },
     "magical_properties": [
-      "15% More Damage to Undead",
-      "19% increased Attributes",
-      "+62 Weapon Strike Damage",
-      "Summons have 10% increased All Speed",
-      "+24 Agility",
-      "+57 Energy",
-      "+236 Health",
-      "+23 Knowledge",
-      "+22 Might",
-      "11% increased Attack Speed",
-      "11% increased Movement Speed"
+      "11% increased Attack and Cast Speed",
+      "+5.9 Energy Regeneration per second",
+      "9% increased Attributes",
+      "Summons have 49% increased Damage",
+      "Summons have 28% increased All Speed",
+      "+186 Health"
     ],
-    "unique_effects": [],
+    "unique_effects": [
+      "+9% to All Magical Resistance",
+      "Whenever one of your Summons dies, recover 10% of your Maximum Health over 5 seconds"
+    ],
     "flavor_text": "Legend says that the strength of great heroes past lingers in this mighty weapon.",
     "requirements": "RSV 354",
     "gold_value": 9617
@@ -742,23 +741,24 @@ export const items: Item[] = [
     "item_name": "Megalos",
     "item_type": "2h Axe",
     "rarity": "Epic",
-    "required_level": 21,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "72-80",
-      "pierce_damage": "11-12",
-      "strike_damage": "43-48",
-      "lightning_damage": "18-20",
+      "total_damage": "208-230",
+      "pierce_damage": "31-34",
+      "strike_damage": "125-138",
+      "lightning_damage": "52-57",
       "attack_speed": "1.12x"
     },
     "magical_properties": [
-      "10% increased Total Damage",
-      "+23 Weapon Lightning Damage",
-      "+29% Lightning Resistance",
-      "+127 Health",
-      "14% increased Movement Speed"
+      "+29 Weapon Lightning Damage",
+      "104% increased Lightning Damage",
+      "66% increased Area Damage",
+      "14% increased Attack and Cast Speed",
+      "+29% Lightning Resistance"      
     ],
     "unique_effects": [
-      "When you have full overwhelm, generating more spends it on an explosion dealing Lightning Damage in a 3m Radius Area around you."
+      "+2 Capacity to Lightning Skills"
+      "+2 Levels to Storm Lightning Strike Passives"
     ],
     "flavor_text": "A large axe once gifted by Zeus to the king of Thracia.",
     "requirements": "FIT 177",
@@ -768,22 +768,21 @@ export const items: Item[] = [
     "item_name": "Moon Disc",
     "item_type": "Shield",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "armor": 220,
-      "strike_resistance": 110,
-      "pierce_resistance": 110
+      "barrier":360,
+      "armor": 257
     },
     "magical_properties": [
-      "Shield: +438 Free Barrier",
-      "14% increased Energy",
-      "+216 Energy Barrier",
-      "+10 Energy Regeneration per second",
+      "33% increased Spell Damage",
       "10% increased Cast Speed",
-      "16% increased Movement Speed"
+      "+18 Energy",
+      "+2.9 Energy Regeneration per second",
+      "+188 Energy Barrier",
+      "17% increased Movement Speed"
     ],
     "unique_effects": [
-      "20% increased Cooldown Rate to Area Spells"
+      "+1 Capacity to Spells"
     ],
     "flavor_text": "A mystical shield bearing the symbols of Hekate.",
     "requirements": "RES 224",
@@ -793,15 +792,16 @@ export const items: Item[] = [
     "item_name": "Moonclaw",
     "item_type": "Necklace",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {},
     "magical_properties": [
-      "27% increased Pierce Damage",
-      "27% increased Critical Hit chance",
-      "+11% Glancing Hits Chance"
+      "60% increased Pierce Damage",
+      "22% increased Critical Hit Damage Multiplier",
+      "+9% Critical Hit chance",
+      "+15% Glancing Hits Chance"
     ],
     "unique_effects": [
-      "On dealing a Critical Hit, recover 30 Energy. 3 seconds Cooldown"
+      "On dealing a Critical Hit, recover 50 Energy. 3 seconds Cooldown"
     ],
     "flavor_text": "A charm fashioned from an owl's talon.",
     "requirements": "LV 45",
@@ -811,17 +811,18 @@ export const items: Item[] = [
     "item_name": "Mother Crab's Claw",
     "item_type": "Necklace",
     "rarity": "Epic",
-    "required_level": 14,
+    "required_level": 50,
     "base_stats": {},
     "magical_properties": [
-      "+12% Cold Resistance",
-      "4% increased Health",
-      "+13% Poison Resistance",
-      "+46 Pierce Armor",
-      "10% increased Movement Speed"
+      "+220 Armor",
+      "13% increased Armor",
+      "+24% Cold Resistance",
+      "+18% Poison Resistance",
+      "8% increased Health",
+      "16% increased Movement Speed"
     ],
     "unique_effects": [
-      "10% increased Damage against Crabs"
+      "40% More Damage against Crabs"
     ],
     "flavor_text": "Crabs seem to sense that the bearer of this trophy is a threat.",
     "requirements": "LV 14",
@@ -839,15 +840,14 @@ export const items: Item[] = [
       "attack_speed": "1.4x"
     },
     "magical_properties": [
-      "+25 Weapon Strike Damage",
-      "+16 Might",
+      "+48 Weapon Strike Damage",
+      "38% increased Attack Damage",
       "10% increased Attack Speed",
-      "13% increased Strike Damage",
-      "13% increased Pierce Damage"
+      "+20 Might"
     ],
     "unique_effects": [
-      "+2% Added base Lifesteal to Physical Damage",
-      "15% increased Damage to Weapon Attacks"
+      "+1 Capacity to Weapon Attacks",
+      "+2 Level to Warfare Rage Passives"
     ],
     "flavor_text": "The bloodthirst of the mighty centaur warrior still lingers in this Khopesh.",
     "requirements": "FIT 241",
@@ -864,15 +864,15 @@ export const items: Item[] = [
       "attack_speed": "1.56x"
     },
     "magical_properties": [
-      "+25 Weapon Strike Damage",
-      "14% increased Cooldown Rate",
-      "14% increased Strike Damage",
-      "14% increased Pierce Damage",
-      "11% increased Movement Skill Cooldown Rate"
+      "+18 Weapon Strike Damage",
+      "23% increased Strike Damage",
+      "24% increased Pierce Damage",
+      "10% increased Attack Speed",
+      "14% increased Cooldown Rate"
     ],
     "unique_effects": [
-      "+2 Maximum Bleeding Stacks",
-      "20% Chance to Trigger a Rupture when hitting channeling Enemies"
+      "20% Chance to Trigger a Rupture on Hit against Channeling or Incapacitated Enemies. Chance is doubled on Critical Hit. Not more than once per second. (Unique Effect)",
+      "+8% Base Weapon Critical Hit Chance"
     ],
     "flavor_text": "The blade was once shattered, to bury any memory of the dark role it played.",
     "requirements": "FIT 241",
@@ -890,13 +890,17 @@ export const items: Item[] = [
       "attack_speed": "1.25x"
     },
     "magical_properties": [
-      "Summons have 9% increased All Speed",
-      "+10 Energy Regeneration per second",
-      "Summons have 18% increased Health"
+      "+45 Weapon Strike Damage", 
+      "40% increased Strike Damage",
+      "40% increased Pierce Damage",
+      "+19% Vitality Resistance",
+      "+8.4 Energy Regeneration per second", 
+      "+143 Health"
     ],
     "unique_effects": [
-      "Hitting an enemy with your Primary Attack grants 15% increased Movement Speed for 1 second",
-      "+62 Health Regeneration per second"
+      "65% less Health Potion Effect Amount. (Unique Effect)",
+      "30% increased Total Health Regeneration",
+      "Regenerate 2% Health per second"
     ],
     "flavor_text": "Named after a tenacious donkey.",
     "requirements": "KNL 148",
