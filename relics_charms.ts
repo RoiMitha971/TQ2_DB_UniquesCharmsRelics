@@ -595,7 +595,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Courage of Theseus",
     "item_type": "Relic",
     "stats": [
-      "Summons have 15/40/45% increased Damage",
+      "Summons have 15/30/45% increased Damage",
       "Summons have 8/16/24% increased Health"
     ],
     "completion_bonus": [
