@@ -765,7 +765,7 @@ export const items: Item[] = [
     "flavor_text": "A small club used for knocking victims unconscious.",
     "requirements": "FIT 177",
     "gold_value": 5081
-  }
+  },
   {
     "item_name": "Megalos",
     "item_type": "2h Axe",
