@@ -110,6 +110,32 @@ export const items: Item[] = [
     "gold_value": 6784
   },
   {
+    "item_name": "Blademagos Sword",
+    "item_type": "Sword",
+    "rarity": "Epic",
+    "level": 50,
+    "base_stats": {
+      "total_damage": "120-132",
+      "lightning_damage": "80-89",
+      "cold_damage": "40-44",
+      "attack_speed": "1.4"
+    },
+    "magical_properties": [
+      "27% increased Spell Damage",
+      "39% increased Attack Damage",
+      "13% increased Attack Speed",
+      "12% increased Cast Speed",
+      "+262 Energy Barrier",
+      "+3 Energy recovered on Kill"
+    ],
+    "unique_effects": [
+      "15% increased Total Spell Damage against close enemies (4 meters)"
+    ],
+    "flavor_text": "A sword made for magic users rather than warriors.",
+    "requirements": "KNI 251",
+    "gold_value": "4688"
+  },
+  {
     "item_name": "Bonesaw",
     "item_type": "Sword",
     "rarity": "Epic",
