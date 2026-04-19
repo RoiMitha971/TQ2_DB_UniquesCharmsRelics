@@ -792,6 +792,29 @@ export const items: Item[] = [
     "gold_value": 1258
   },
   {
+    "item_name": "Moly Tea",
+    "item_type": "Talisman",
+    "rarity": "Epic",
+    "level": 50,
+    "base_stats": {
+      "energy": "52"
+    },
+    "magical_properties": [
+      "+27% increased Energy Potion Recharge Rate",
+      "+29% increased Health Potion Recharge Rate",
+      "Summons have +20% to All Resistances",
+      "+20 Vigor"
+    ],
+    "unique_effects": [
+      "+7% to all Magical Resistances",
+      "Cleanse all Ailments on Health Potion use",
+      "Cleanse all Incapacitation on Health Potion use"
+    ],
+    "flavor_text": "A pot filled with a fragrant herbal infusion that warms and refreshes.",
+    "requirements": "VIG 148",
+    "gold_value": "5070"
+  },
+  {
     "item_name": "Moon Disc",
     "item_type": "Shield",
     "rarity": "Epic",
