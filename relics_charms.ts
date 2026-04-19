@@ -54,7 +54,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Arm Armor, Necklace"
     ],
-    "dropped_by": "Boarman - geomancer, leader"
+    "dropped_by": "Boarman - Geomancer, Elite"
   },
   {
     "category": "Charm",
@@ -70,7 +70,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Jewelry"
     ],
-    "dropped_by": "Boar, Monstrous Boar, Boarmen"
+    "dropped_by": "Boar, Monstrous Boar, Boarman"
   },
   {
     "category": "Charm",
@@ -89,143 +89,154 @@ export const relicsAndCharms: RelicCharm[] = [
   },
   {
     "category": "Charm",
+    "item_name": "Crab Claw",
+    "item_type": "Charm",
+    "stats": [
+      "10/20/30% increased Pierce Damage"
+    ],
+    "completion_bonus": [
+      "+20 Fitness"
+    ],
+    "enchantable_slots": [
+      "All Weapons, Talisman"
+    ],
+    "dropped_by": "Crabs"
+  },
+  {
+    "category": "Charm",
     "item_name": "Cyclops Eye",
     "item_type": "Charm",
     "stats": [
-      "4/8/12% increased Health Regeneration",
-      "+5/10/15% Lightning Resistance"
+      "",
+      ""
     ],
     "completion_bonus": [
-      "4% increased Vigor"
+      ""
     ],
     "enchantable_slots": [
-      "All Armor"
+      ""
     ],
-    "dropped_by": null
+    "dropped_by": "Cyclops"
   },
   {
     "category": "Charm",
     "item_name": "Dark Essence",
     "item_type": "Charm",
     "stats": [
-      "5/10/15% increased Energy Regeneration",
-      "6/12/18% increased Energy Drain Damage"
+      "+1/2/3% Critical Hit chance"
     ],
     "completion_bonus": [
-      "10% increased Energy Barrier",
-      "10% increased Energy Barrier Conversion Rate"
+      "3% increased Critical Hit Damage Modifier"
     ],
     "enchantable_slots": [
-      "Arm Armor"
+      "Jewelry, All Weapons"
     ],
-    "dropped_by": "Ichtian Enchanter, Empusa"
+    "dropped_by": "Ichtian Enchanter, Empusas"
   },
   {
     "category": "Charm",
     "item_name": "Feline Claw",
     "item_type": "Charm",
     "stats": [
-      "6/12/18% increased Strike Damage"
+      "8/16/24% increased Pierce Damage",
+      "10/20/30% increased Bleeding Ailment Chance"
     ],
     "completion_bonus": [
-      "8% increased Attack Speed"
+      "5% Pierce penetration"
     ],
     "enchantable_slots": [
-      "All Weapons"
+      "All Weapons, Arm Armor"
     ],
     "dropped_by": "Lions"
+  },
+  {
+    "category": "Charm",
+    "item_name": "Fetid Bile",
+    "item_type": "Charm",
+    "stats": [
+      "+5/10/15% Vitality Resistance" 
+    ],
+    "completion_bonus": [
+      "+10% increased Health Regeneration"
+    ],
+    "enchantable_slots": [
+      "All Armor, Shield"
+    ],
+    "dropped_by": "Leeches, Undead Ichtians"
   },
   {
     "category": "Charm",
     "item_name": "Glacial Shard",
     "item_type": "Charm",
     "stats": [
-      "5/10/15% increased Cold Damage",
-      "+5/10/15% Cold Resistance"
+      "5+3/6/9% Fire Resistance",
+      "+3/6/9% Cold Resistance"
     ],
     "completion_bonus": [
-      "+20% Chilled Resistance",
-      "Summons have 30% increased Damage"
+      "+3 Health per Level"
     ],
     "enchantable_slots": [
-      "Torso Armor",
-      "Leg Armor"
+      "All Armor, Shield"
     ],
-    "dropped_by": "Frost Revenant, Bandits, Ichtian Hydromancer"
+    "dropped_by": "Bandit Trainee, Skeleton Evoker (ice), Frost Revenant, Ichtian Hydromancer"
   },
   {
     "category": "Charm",
     "item_name": "Hollow Essence",
     "item_type": "Charm",
     "stats": [
-      "4/8/12% increased Energy"
+      "4/8/12 Energy Barrier per Level"
     ],
     "completion_bonus": [
-      "+10% Glancing Hits Chance"
+      "+4% Magical Resistances"
     ],
     "enchantable_slots": [
-      "Arm Armor"
+      "All Armor, Talisman"
     ],
-    "dropped_by": "Drowned Sailor, Lost souls"
+    "dropped_by": "Bandit Leader, Bandit Marauder, Skeleton Warlock, Centaur Spiritcaller, Ghosts"
   },
   {
     "category": "Charm",
     "item_name": "Hollow Fang",
     "item_type": "Charm",
     "stats": [
-      "6/12/18% increased Vitality Damage"
+      "10/20/30% increased Vitality Damage"
     ],
     "completion_bonus": [
-      "8% increased Base Weapon Damage"
+      "+15 Vigor"
     ],
     "enchantable_slots": [
-      "All Weapons"
+      "All Weapons, Talisman"
     ],
-    "dropped_by": "Giant Bat, Cobra"
+    "dropped_by": "Giant Bat, Minyade, Cobras"
   },
   {
     "category": "Charm",
     "item_name": "Ichthian Fin",
     "item_type": "Charm",
     "stats": [
-      "6/12/18% increased Cold Damage"
+      "10/20/30% increased Cold Damage"
     ],
     "completion_bonus": [
-      "15% increased Ailment Duration"
+      "20% increased Ailment Duration"
     ],
     "enchantable_slots": [
-      "All Weapons"
+      "All Weapons, Talisman"
     ],
-    "dropped_by": "any Ichtian"
-  },
-  {
-    "category": "Charm",
-    "item_name": "Leech Bile",
-    "item_type": "Charm",
-    "stats": [
-      "6/12/18% increased Health Regeneration" 
-    ],
-    "completion_bonus": [
-      "+10% Cold Resistance",
-      "+10% Fire Resistance"
-    ],
-    "enchantable_slots": [
-      "Shoulder Armor"
-    ],
-    "dropped_by": "Leeches"
+    "dropped_by": "Ichtians"
   },
   {
     "category": "Charm",
     "item_name": "Lupine Claw",
     "item_type": "Charm",
     "stats": [
-      "6/12/18% increased Pierce Damage"
+      "10/20/30% increased Strike Damage"
     ],
     "completion_bonus": [
-      "10% increased Cooldown Rate"
+      "+20 Fitness"
     ],
     "enchantable_slots": [
-      "All Weapons"
+      "All Weapons, Talisman"
     ],
     "dropped_by": "Wolves"
   },
