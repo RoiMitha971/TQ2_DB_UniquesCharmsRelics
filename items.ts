@@ -254,6 +254,31 @@ export const items: Item[] = [
     "gold_value": 4711
   },
   {
+    "item_name": "Chromatic Staff",
+    "item_type": "Staff",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "total_damage": "208-230",
+      "elemental_breakdown": "52-57 Spirit, Cold, Fire, Lightning",
+      "attack_speed": "1"
+    },
+    "magical_properties": [
+      "49% increased Elemental Damage",
+      "19% increased Attack and Cast Speed",
+      "+66 Energy",
+      "+10.9 Energy Regeneration per second",
+      "82% increased Ailment Chance"
+    ],
+    "unique_effects": [
+      "+2 Capacity to Fire, Lightning and Cold Skills",
+      "+3% Base Weapon Ailment Chance",
+    ],
+    "flavor_text": "A staff that gains its power by tapping into a multitude of different magical currents",
+    "requirements": "KNL 251",
+    "gold_value": 4688
+  },
+  {
     "item_name": "Coral Mace",
     "item_type": "1h Club",
     "rarity": "Epic",
@@ -659,6 +684,35 @@ export const items: Item[] = [
     "gold_value": 3250
   },
   {
+    "item_name": "Icefire Spike",
+    "item_type": "Spear",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "total_damage": "144-160",
+      "fire_damage": "72-80",
+      "cold_damage":"72-80",
+      "attack_speed": "1.25"
+    },
+    "magical_properties": [
+      "+40 Weapon Fire Damage",
+      "+40 Weapon Cold Damage",
+      "26% increased Fire Damage",
+      "24% increased Cold Damage",
+      "11% increased Attack and Cast Speed",
+      "+10.9 Energy Regeneration per second",
+      "14% increased Fire Damage",
+      "14% increased Cold Damage"
+    ],
+    "unique_effects": [
+      "+1 Capacity to Cold Skills",
+      "+1 Capacity to Fire Skills",
+    ],
+    "flavor_text": "Conceived as a conduit to move heat out of food stores, the technology to create fire and ice was quickly weaponized",
+    "requirements": "RSV 241",
+    "gold_value": 4688
+  },
+  {
     "item_name": "Ilektrisimos",
     "item_type": "Staff",
     "rarity": "Epic",
@@ -1007,6 +1061,30 @@ export const items: Item[] = [
     "requirements": "KNL 148",
     "gold_value": 4949
   },
+  {
+    "item_name": "Orion's Mace",
+    "item_type": "2h Club",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "total_damage": "250-276",
+      "strike_damage": "250-276",
+      "attack_speed": "1x"
+    },
+    "magical_properties": [
+      "58% increased Elemental Damage",
+      "+15% increased Attack and Cast Speed",
+      "+5.4 Energy Regeneration per second", 
+      "+44 Knowledge"
+    ],
+    "unique_effects": [
+      "+2 Capacity to Fire, Lightning and Cold Skills",
+      "Using an Elemental Skill grants 6% more damage to your next Skill of Another Element for 3 seconds. Stacks up to 8 times"
+    ],
+    "flavor_text": "An earth-shaking yet magical club, fit for a son of Poseidon",
+    "requirements": "RSV 323",
+    "gold_value": 4949
+  },  
   {
     "item_name": "Perdix' Sphere",
     "item_type": "2h Club",
