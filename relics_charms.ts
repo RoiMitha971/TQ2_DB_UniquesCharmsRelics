@@ -104,21 +104,6 @@ export const relicsAndCharms: RelicCharm[] = [
   },
   {
     "category": "Charm",
-    "item_name": "Cyclops Eye",
-    "item_type": "Charm",
-    "stats": [
-      " "
-    ],
-    "completion_bonus": [
-      " "
-    ],
-    "enchantable_slots": [
-      " "
-    ],
-    "dropped_by": "Cyclops"
-  },
-  {
-    "category": "Charm",
     "item_name": "Dark Essence",
     "item_type": "Charm",
     "stats": [
@@ -471,8 +456,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Shield"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -489,8 +473,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
   {
     "category": "Relic",
@@ -505,11 +488,9 @@ export const relicsAndCharms: RelicCharm[] = [
       "Whenever you get hit you have a 15% chance to deal 100% Retaliation Damage to the attacker"
     ],
     "enchantable_slots": [
-      "Shield",
-      "Talisman"
+      "Shield, Talisman"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
   {
     "category": "Relic",
@@ -525,8 +506,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Bow"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
    {
     "category": "Relic",
@@ -545,8 +525,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -563,8 +542,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
   {
     "category": "Relic",
@@ -581,8 +559,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Bow"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -598,8 +575,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Jewelry"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -617,8 +593,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
   {
     "category": "Relic",
@@ -634,8 +609,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -654,8 +628,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Necklaces"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
   {
     "category": "Relic",
@@ -673,8 +646,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Jewelry"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -691,8 +663,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Head Armor"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -710,8 +681,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -728,8 +698,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Head Armor"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -747,8 +716,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Armor"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -765,8 +733,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -783,8 +750,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Legs"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -802,8 +768,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -819,8 +784,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Armor"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -838,8 +802,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -855,8 +818,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Armor"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -874,8 +836,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
    {
     "category": "Relic",
@@ -893,8 +854,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Armor"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
   {
     "category": "Relic",
@@ -911,8 +871,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Jewelry"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
   {
     "category": "Relic",
@@ -930,8 +889,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Armor"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
   {
     "category": "Relic",
@@ -949,8 +907,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -968,8 +925,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Arm Armor"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -985,8 +941,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Armor"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -1001,8 +956,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Rings"
     ],
-    "dropped_by": [
-      "Chapter 2"
+    "dropped_by": "Chapter 2"
   },
    {
     "category": "Relic",
@@ -1020,8 +974,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 1"
+    "dropped_by": "Chapter 1"
   },
   {
     "category": "Relic",
@@ -1039,8 +992,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 3"
+    "dropped_by": "Chapter 3"
   },
   {
     "category": "Relic",
@@ -1057,7 +1009,6 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons"
     ],
-    "dropped_by": [
-      "Chapter 1"F
+    "dropped_by": "Chapter 1"
   }
 ];
