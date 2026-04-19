@@ -107,14 +107,13 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Cyclops Eye",
     "item_type": "Charm",
     "stats": [
-      "",
-      ""
+      " "
     ],
     "completion_bonus": [
-      ""
+      " "
     ],
     "enchantable_slots": [
-      ""
+      " "
     ],
     "dropped_by": "Cyclops"
   },
