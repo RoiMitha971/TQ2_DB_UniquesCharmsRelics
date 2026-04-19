@@ -1225,19 +1225,23 @@ export const items: Item[] = [
     "item_name": "Telekinos",
     "item_type": "Staff",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "147-163",
-      "strike_damage": "147-163",
+      "total_damage": "173-191",
+      "strike_damage": "173-191",
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "33% increased Strike Damage",
-      "39% increased Ailment Power",
-      "16% increased Area Ability Damage"
+      "55% increased Spell Damage",
+      "101% increased Strike Damage",
+      "17% increased Attack and Cast Speed",
+      "+38 Energy",
+      "90% increased Ailment Chance"
     ],
     "unique_effects": [
-      "When you have full overwhelm, generating more spends it on an explosion dealing Strike Damage in a 3m Radius Area around you."
+      "+2 Capacity to Physical Spells",
+      "+3 Maximum Staggered Stacks",
+      "Your Primary Attack consumes Vulnerable to genereate an Explosion dealing Strike Damage in a 2m area around Enemies hit. The Explosion has 20% to Stun for 1s. The Explosion is considered a Physical Spell"
     ],
     "flavor_text": "A staff that projects blunt force, useful to settle scholarly disagreements.",
     "requirements": "RES 224",
@@ -1247,20 +1251,22 @@ export const items: Item[] = [
     "item_name": "Thornwall",
     "item_type": "Shield",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "armor": 220,
-      "strike_resistance": 110,
-      "pierce_resistance": 110
+      "barrier": 351,
+      "armor": 220
     },
     "magical_properties": [
-      "Shield: +307 Free Barrier",
-      "+9% Bleeding and Poison Resistance",
-      "12% less Damage from Beasts",
-      "19% increased Retaliation Damage"
+      "+157 Pierce Retaliation",
+      "+376 Poison Retaliation",
+      "+14% Bleeding Resistance",
+      "+13% Poison Resistance",
+      "Summons have +20% to All Resistances"
     ],
     "unique_effects": [
-      "+97 Pierce Retaliation"
+      "58% increased Retaliation Damage",
+      "13% less Damage from Beasts"
+      
     ],
     "flavor_text": "Sharp poisoned spikes dampen many a creature's appetite.",
     "requirements": null,
@@ -1278,14 +1284,15 @@ export const items: Item[] = [
       "attack_speed": "1.12x"
     },
     "magical_properties": [
-      "33% increased Pierce Damage",
-      "+27 Weapon Pierce Damage",
-      "+139 Strike Armor",
-      "19% increased Critical Hit chance",
-      "+2% Base Weapon Critical Hit Chance"
+      "+35 Weapon Pierce Damage",
+      "24% increased Strike Damage",
+      "24% increased Pierce Damage",
+      "117 Pierce Retaliation",
+      "+363 Strike Armor",
+      "+6% Critical Hit chance"
     ],
     "unique_effects": [
-      "121 Pierce Retaliation"
+      "+5% Base Weapon Critical Hit Chance"
     ],
     "flavor_text": "Block crush and impale, all with one handy tool.",
     "requirements": "FIT 241",
@@ -1295,21 +1302,21 @@ export const items: Item[] = [
     "item_name": "Thyrsus",
     "item_type": "Staff",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "147-163",
-      "poison_damage": "147-163",
+      "total_damage": "173-191",
+      "poison_damage": "173-191",
       "attack_speed": "1x"
     },
     "magical_properties": [
-      "12% increased Total Damage",
-      "47% increased Poison Damage",
-      "+200 Energy Barrier",
-      "+9 Energy Regeneration per second",
-      "10% increased Cast Speed"
+      "159% increased Poison Damage",
+      "19% increased Attack and Cast Speed",
+      "+5.7 Energy Regeneration per second",
+      "115% increased Plagued Ailment Chance",
+      "+203 Energy Barrier"
     ],
     "unique_effects": [
-      "Activating Barrier inflicts Pierce Damage to enemies around you"
+      "Activating Barrier creates a Poison Explosion is a 6m area around you. 300% Ailment Chance"
     ],
     "flavor_text": "A vined staff, sacred to Dionysos.",
     "requirements": "KNO 230",
@@ -1319,20 +1326,23 @@ export const items: Item[] = [
     "item_name": "Trygon's Tail",
     "item_type": "Dagger",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {
-      "total_damage": "123-135",
-      "cold_damage": "61-68",
-      "poison_damage": "61-68",
+      "total_damage": "144-160",
+      "cold_damage": "72-80",
+      "poison_damage": "72-80",
       "attack_speed": "1.4x"
     },
     "magical_properties": [
-      "+25 Weapon Cold Damage",
-      "25% increased Cold Damage",
-      "22% increased Poison Damage"
+      "+16 Weapon Cold Damage",
+      "+40 Weapon Poison Damage",
+      "38% increased Cold Damage",
+      "39% increased Poison Damage",
+      "22% increased Ailment Power"
     ],
     "unique_effects": [
-      "Your Primary Attack has an Additional 100% Chance to apply Plagued when hitting Frozen Enemies"
+      "+1 Capacity to Cold Skills",
+      "Attacks has an Additional 100% Plagued Chance against Frozen Enemies"
     ],
     "flavor_text": "The venomous tip of the lord of stingrays' tail, which slew the hero Odysseus.",
     "requirements": "FIT 224",
@@ -1342,17 +1352,18 @@ export const items: Item[] = [
     "item_name": "Venom Heart",
     "item_type": "Necklace",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {},
     "magical_properties": [
-      "21% increased Poison Damage",
-      "+24% Poison Resistance",
-      "+46 Weapon Poison Damage",
-      "30% increased Ailment Chance",
-      "25% increased Ailment Power"
+      "+45 Weapon Poison Damage",
+      "40% increased Poison Damage",
+      "+18% Poison Resistance",
+      "63% increased Plagued Ailment Chance",
+      "34% increased Plagued Ailment Power"
     ],
     "unique_effects": [
-      "10% increased Weapon Projectile Damage"
+      "+1 Capacity to Poison Skills",
+      "65% of Weapon Damage converted to Poison"
     ],
     "flavor_text": "A cursed amulet that once held the image of a dear spouse.",
     "requirements": "LV 45",
@@ -1362,15 +1373,17 @@ export const items: Item[] = [
     "item_name": "Wellspring",
     "item_type": "Necklace",
     "rarity": "Epic",
-    "required_level": 45,
+    "required_level": 50,
     "base_stats": {},
     "magical_properties": [
-      "+10 Energy Regeneration per second",
-      "+50 Health Regeneration per second"
+      "+7.1 Energy Regeneration per second",
+      "+31 Health Regeneration per second",
+      "Summons have +20% to All Resistances"
     ],
     "unique_effects": [
-      "+6% to all Magical Resistances",
-      "Generating Overload grants 20% increased Health Regeneration for 2 seconds"
+      "+2 Capacity to Aura Skills",
+      "+7% to all Magical Resistances",
+      "Cleansing Overload grants 10% increased Total Health Regeneration for 3 seconds"
     ],
     "flavor_text": "Wearing this amulet makes you feel refreshed and energized.",
     "requirements": "LV 45",
