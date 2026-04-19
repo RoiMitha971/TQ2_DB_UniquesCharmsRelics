@@ -738,6 +738,36 @@ export const items: Item[] = [
     "gold_value": 9617
   },
   {
+    "item_name": "Mamertine Sap",
+    "type": "Dagger",
+    "rarity": "Epic",
+    "required_level": 50,
+  
+    "base_stats": {
+      "min_damage": 120,
+      "max_damage": 132,
+      "attack_speed": 1.56
+    },
+  
+    "magical_properties": [
+      "61% increased Strike Damage",
+      "58% increased Pierce Damage",
+      "50% increased Damage against Incapacitated Enemies",
+      "+24 Might",
+      "21% increased Stun Duration"
+    ],
+  
+    "unique_properties": [
+      "+1 Capacity to Disruption Skills",
+      "+10% increased Combat Gold gained",
+      "After using a Disruption Skill, gain 10% increased Movement Speed and 3 Weapon Strike damage per Level for 4 seconds"
+    ],
+  
+    "flavor_text": "A small club used for knocking victims unconscious.",
+    "requirements": "FIT 177",
+    "gold_value": 5081
+  }
+  {
     "item_name": "Megalos",
     "item_type": "2h Axe",
     "rarity": "Epic",
