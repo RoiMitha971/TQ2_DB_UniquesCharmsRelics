@@ -764,6 +764,31 @@ export const items: Item[] = [
     "gold_value": 9617
   },
   {
+    "item_name": "Lycurgus' Wisdom",
+    "item_type": "1h Club",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "total_damage": "173-191",
+      "strike_damage": "173-191",
+      "attack_speed": "1.12"
+    },
+    "magical_properties": [
+      "+58 Weapon Strike Damage",
+      "58% increased Strike Damage",
+      "56% increased Pierce Damage",
+      "8% increased Attack and Cast Speed",
+      "+21 Agility",
+      "+22 Might"
+    ],
+    "unique_effects": [
+      "5% increased Combat Experience gained"
+    ],
+    "flavor_text": "The wise spartan knew that law work best when backed by means to enforce them",
+    "requirements": "MGT 251",
+    "gold_value": 4688
+  },
+  {
     "item_name": "Mamertine Sap",
     "item_type": "Dagger",
     "rarity": "Epic",
@@ -821,7 +846,7 @@ export const items: Item[] = [
     "item_name": "Moly Tea",
     "item_type": "Talisman",
     "rarity": "Epic",
-    "level": 50,
+    "required_level": 50,
     "base_stats": {
       "energy": "52"
     },
@@ -838,7 +863,7 @@ export const items: Item[] = [
     ],
     "flavor_text": "A pot filled with a fragrant herbal infusion that warms and refreshes.",
     "requirements": "VIG 148",
-    "gold_value": "5070"
+    "gold_value": 5070
   },
   {
     "item_name": "Moon Disc",
