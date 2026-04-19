@@ -739,7 +739,7 @@ export const items: Item[] = [
   },
   {
     "item_name": "Mamertine Sap",
-    "type": "Dagger",
+    "item_type": "Dagger",
     "rarity": "Epic",
     "required_level": 50,
     "base_stats": {
