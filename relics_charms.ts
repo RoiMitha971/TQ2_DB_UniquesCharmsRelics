@@ -22,7 +22,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+8% Lightning Resistance"
     ],
     "enchantable_slots": [
-      "All Weapons, Talisman, Arm Armor"
+      "All Weapons, Talisman, Arms"
     ],
     "dropped_by": "Ketos Spawn, Hippocampos Foal, Crocolisk"
   },
@@ -37,7 +37,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "5% increased Ailment Power"
     ],
     "enchantable_slots": [
-      "Jewelry, All Weapons"
+      "Jewelry, Weapons"
     ],
     "dropped_by": "Skeleton - Evoker"
   },
@@ -52,7 +52,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "20% increased Attack Damage"
     ],
     "enchantable_slots": [
-      "Arm Armor, Necklace"
+      "Arms, Necklace"
     ],
     "dropped_by": "Boarman - Geomancer, Elite"
   },
@@ -83,7 +83,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "10% increased Movement Skill Cooldown Rate"
     ],
     "enchantable_slots": [
-      "Leg Armor"
+      "Legs"
     ],
     "dropped_by": "Centaurs"
   },
@@ -114,9 +114,9 @@ export const relicsAndCharms: RelicCharm[] = [
       "3 Health per Level"
     ],
     "enchantable_slots": [
-      "All Armor, Shields"
+      "Armor, Shield"
     ],
-    "dropped_by": "null"
+    "dropped_by": ""
   },
   {
     "category": "Charm",
@@ -145,7 +145,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "5% Pierce penetration"
     ],
     "enchantable_slots": [
-      "All Weapons, Arm Armor"
+      "All Weapons, Arms"
     ],
     "dropped_by": "Lions"
   },
@@ -160,7 +160,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+10% increased Health Regeneration"
     ],
     "enchantable_slots": [
-      "All Armor, Shield"
+      "Armor, Shield"
     ],
     "dropped_by": "Leeches, Undead Ichtians"
   },
@@ -176,7 +176,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+3 Health per Level"
     ],
     "enchantable_slots": [
-      "All Armor, Shield"
+      "Armor, Shield"
     ],
     "dropped_by": "Bandit Trainee, Skeleton Evoker (ice), Frost Revenant, Ichtian Hydromancer"
   },
@@ -191,7 +191,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+4% Magical Resistances"
     ],
     "enchantable_slots": [
-      "All Armor, Talisman"
+      "Armor, Talisman"
     ],
     "dropped_by": "Bandit Leader, Bandit Marauder, Skeleton Warlock, Centaur Spiritcaller, Ghosts"
   },
@@ -251,7 +251,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "10% increased Retaliation Range"
     ],
     "enchantable_slots": [
-      "Torso Armor, Shield"
+      "Torso, Shield"
     ],
     "dropped_by": "Living Statues"
   },
@@ -266,7 +266,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+X Device Skills Capacity"
     ],
     "enchantable_slots": [
-      "Necklace, Head Armor"
+      "Necklace, Head"
     ],
     "dropped_by": "Bandit Trapper"
   },
@@ -281,7 +281,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+4% Magical Resistances"
     ],
     "enchantable_slots": [
-      "Torso Armor, Shield"
+      "Torso, Shield"
     ],
     "dropped_by": "Minyade, Giant Bat"
   },
@@ -357,7 +357,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "10% increased Health Regeneration"
     ],
     "enchantable_slots": [
-      "All Armor, Shields"
+      "Armor, Shield"
     ],
     "dropped_by": "Crabs, Scorpions, Ichtians: Commander, Guard, Brute, Undead Brute"
   },
@@ -388,7 +388,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Summons have 8% increased All Speed"
     ],
     "enchantable_slots": [
-      "All Weapons, Talisman, Arm Armor"
+      "All Weapons, Talisman, Arms"
     ],
     "dropped_by": "Accusing Shadow, Empusas"
   },
@@ -403,7 +403,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "4% increased Health"
     ],
     "enchantable_slots": [
-      "Torso Armor, Shield"
+      "Torso, Shield"
     ],
     "dropped_by": "Turtles"
   },
@@ -433,7 +433,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+20% Plagued Resistance"
     ],
     "enchantable_slots": [
-      "Arm Armor, Necklace"
+      "Arms, Necklace"
     ],
     "dropped_by": "Exploding Spiders, Ichtian Alchemist"
   },
@@ -621,7 +621,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Regen 1% max health/sec above 50% Health"
     ],
     "enchantable_slots": [
-      "Necklaces"
+      "Necklace"
     ],
     "dropped_by": "Chapter 2"
   },
@@ -656,7 +656,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Enemies take 3% more Damage per Ailment they suffer"
     ],
     "enchantable_slots": [
-      "Head Armor"
+      "Head"
     ],
     "dropped_by": "Chapter 3"
   },
@@ -691,7 +691,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "10% more Cold Damage, 2x against Undead"
     ],
     "enchantable_slots": [
-      "Head Armor"
+      "Head"
     ],
     "dropped_by": "Chapter 3"
   },
@@ -709,7 +709,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Enemies within 6m have -7% Fire Resistance"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Armor"
     ],
     "dropped_by": "Chapter 3"
   },
@@ -777,7 +777,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "20% increased Energy Regeneration while below 50% Energy"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Armor"
     ],
     "dropped_by": "Chapter 1"
   },
@@ -811,7 +811,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "30% chance to cleanse Hard CC and gain 8s Immunity (30s CD)"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Armor"
     ],
     "dropped_by": "Chapter 1"
   },
@@ -847,7 +847,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "9% increased Plagued Ailment Power"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Armor"
     ],
     "dropped_by": "Chapter 2"
   },
@@ -882,7 +882,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "9% increased Weakened Ailment Power"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Armor"
     ],
     "dropped_by": "Chapter 2"
   },
@@ -934,7 +934,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Killing grants +3 Energy Regeneration for 4s (stacks 4x)"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Armor"
     ],
     "dropped_by": "Chapter 3"
   },
@@ -949,7 +949,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "20% increased Gold gained from Elite Creatures"
     ],
     "enchantable_slots": [
-      "Rings"
+      "Ring"
     ],
     "dropped_by": "Chapter 2"
   },
