@@ -104,6 +104,22 @@ export const relicsAndCharms: RelicCharm[] = [
   },
   {
     "category": "Charm",
+    "item_name": "Cyclops Eye",
+    "item_type": "Charm",
+    "stats": [
+      "+3/6/9% Poison Resistance",
+      "+3/6/9% Lightning Resistance"
+    ],
+    "completion_bonus": [
+      "3 Health per Level"
+    ],
+    "enchantable_slots": [
+      "All Armor, Shields"
+    ],
+    "dropped_by": "null"
+  },
+  {
+    "category": "Charm",
     "item_name": "Dark Essence",
     "item_type": "Charm",
     "stats": [
