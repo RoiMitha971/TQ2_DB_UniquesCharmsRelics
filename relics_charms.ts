@@ -229,15 +229,13 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Marble Heart",
     "item_type": "Charm",
     "stats": [
-      "+5/10/15% Fire Resistance",
-      "2/4/6 Strike Armor per Level"
+      "15/30/45% increased Retaliation Damage"
     ],
     "completion_bonus": [
-      "+8% Glancing Hits Chance"
+      "10% increased Retaliation Range"
     ],
     "enchantable_slots": [
-      "Arm Armor",
-      "Shoulder Armor"
+      "Torso Armor, Shield"
     ],
     "dropped_by": "Living Statues"
   },
@@ -246,13 +244,13 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Mechanical Parts",
     "item_type": "Charm",
     "stats": [
-      "3/6/9% increased Movement Speed"
+      "Devices have 10/20/30% increased Damage"
     ],
     "completion_bonus": [
-      "+10% Poison Resistance"
+      "+X Device Skills Capacity"
     ],
     "enchantable_slots": [
-      "Torso Armor"
+      "Necklace, Head Armor"
     ],
     "dropped_by": "Bandit Trapper"
   },
@@ -261,135 +259,120 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Membrane Wings",
     "item_type": "Charm",
     "stats": [
-      "+3/6/9% Glancing Hits Chance",
-      "2/4/6% increased Cast Speed"
+      "+5/10/15% Glancing Hits Chance"
     ],
     "completion_bonus": [
-      "8% increased Attack Speed",
-      "Summons have 10% increased All Speed"
+      "+4% Magical Resistances"
     ],
     "enchantable_slots": [
-      "Torso Armor",
-      "Leg Armor"
+      "Torso Armor, Shield"
     ],
-    "dropped_by": "Minyades"
+    "dropped_by": "Minyade, Giant Bat"
   },
   {
     "category": "Charm",
     "item_name": "Necrotic Bones",
     "item_type": "Charm",
     "stats": [
-      "+5/10/15% Cold Resistance"
+      "+12/24/36 Energy"
     ],
     "completion_bonus": [
-      "+30 Energy"
+      "+4 Energy Regeneration per second"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Jewelry, Talisman"
     ],
-    "dropped_by": "Any Skeleton, Undead Ichtian, Ichtian Necromancer"
+    "dropped_by": "Gilded Dead, Skeletons (except Evokers), Ichtian Necromancer"
   },
   {
     "category": "Charm",
     "item_name": "Primal Magma",
     "item_type": "Charm",
     "stats": [
-      "5/10/15% increased Fire Damage",
-      "+5/10/15% Fire Resistance"
+      "10/20/30% increased Fire Damage"
     ],
     "completion_bonus": [
-      "+20% Burn Resistance",
-      "Summons have 30% increased Damage"
+      "+20 Resolve"
     ],
     "enchantable_slots": [
-      "Arm Armor",
-      "Shoulder Armor"
+      "All Weapons, Talisman"
     ],
-    "dropped_by": "Walking Corpse Evoker, Burning Revenant"
+    "dropped_by": "Skeleton Evoker (fire), Burning Revenant, Centaur Flamecaller"
   },
   {
     "category": "Charm",
     "item_name": "Raging Tempest",
     "item_type": "Charm",
     "stats": [
-      "5/10/15% increased Lightning Damage",
-      "+5/10/15% Lightning Resistance"
+      "10/20/30% increased Lightning Damage"
     ],
     "completion_bonus": [
-      "+20% Shocked Resistance",
-      "Summons have 30% increased Damage"
+      "+20 Cunning"
     ],
     "enchantable_slots": [
-      "Head Armor",
-      "Necklaces"
+      "All Weapons, Talisman"
     ],
-    "dropped_by": "Skeleton Evoker, Hippokampos Foal, Ketos Spawn"
+    "dropped_by": "Bandit Trainee, Centaur Stormcaller, Skeleton Evoker (lightning), Storm Revenant"
   },
   {
     "category": "Charm",
     "item_name": "Pristine Plumage",
     "item_type": "Charm",
     "stats": [
-      "+10/20/30 Agility",
-      "+3/6/9% Poison Resistance"
+      "+8/16/24 Agility",
+      "+5/10/15% increased Movement Skill Cooldown Rate"
     ],
     "completion_bonus": [
-      "8% increased Strike Armor"
+      "+5 Armor per Level"
     ],
     "enchantable_slots": [
-      "All Armor"
+      "Jewelry"
     ],
-    "dropped_by": "Gryphon, Giant Eagle"
+    "dropped_by": "Gryphons, Eagles, Stympgalian Bird"
   },
   {
     "category": "Charm",
     "item_name": "Rigid Carapace",
     "item_type": "Charm",
     "stats": [
-      "+2/4/4 Pierce Armor per Level",
-      "2/4/6% increased Health"
+      "+4/8/12 Armor per Level"
     ],
     "completion_bonus": [
-      "15% increased Health Regeneration",
-      "Summons have 20% increased Health"
+      "10% increased Health Regeneration"
     ],
     "enchantable_slots": [
-      "Torso Armor",
-      "Shields"
+      "All Armor, Shields"
     ],
-    "dropped_by": "Crabs, Ichtian Commanders, Scorpions"
+    "dropped_by": "Crabs, Scorpions, Ichtians: Commander, Guard, Brute, Undead Brute"
   },
   {
     "category": "Charm",
     "item_name": "Spectral Matter",
     "item_type": "Charm",
     "stats": [
-      "+10/20/30 Knowledge",
-      "4/8/12% increased Energy Barrier"
+      "+8/16/24 Knowledge",
+      "5/10/15% increased Energy Barrier"
     ],
     "completion_bonus": [
-      "10% increased Energy Regeneration"
+      "+5 Armor per Level"
     ],
     "enchantable_slots": [
-      "Rings",
-      "Necklaces"
+      "Jewelry"
     ],
-    "dropped_by": "Drowned Sailor, Accusing Shadow"
+    "dropped_by": "Ghosts, Bandits, Accusing Shadow, Stalking Shadow, Centaur Ritualist"
   },
   {
     "category": "Charm",
     "item_name": "Tortured Soul",
     "item_type": "Charm",
     "stats": [
-      "+5/10/15% Vitality Resistance",
-      "+5/10/15% Spirit Resistance"
+      "Summons have 15/30/45% increased Damage"
     ],
     "completion_bonus": [
-      "10% increased Energy Barrier"
+      "Summons have 8% increased All Speed"
     ],
     "enchantable_slots": [
-      "Rings",
-      "Necklaces"
+      "All Weapons, Talisman, Arm Armor"
     ],
     "dropped_by": "Accusing Shadow, Empusas"
   },
@@ -398,14 +381,13 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Turtle Shell",
     "item_type": "Charm",
     "stats": [
-      "+3/5/7 Pierce Armor per Level"
+      "2/4/6 Health per Level"
     ],
     "completion_bonus": [
-      "8% increased Health"
+      "4% increased Health"
     ],
     "enchantable_slots": [
-      "Shields",
-      "Talismans"
+      "Torso Armor, Shield"
     ],
     "dropped_by": "Turtles"
   },
@@ -414,31 +396,28 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Venom Sac",
     "item_type": "Charm",
     "stats": [
-      "6/12/18% increased Poison Damage"
+      "10/20/30% increased Poison Damage"
     ],
     "completion_bonus": [
-      "15% increased Damage over Time"
+      "+20 Cunning"
     ],
     "enchantable_slots": [
-      "All Weapons"
+      "All Weapons, Talisman"
     ],
-    "dropped_by": "Spiders, Cobras, Scorpions"
+    "dropped_by": "Spiders, Cobras, Scorpions, Spitting Turtle, Centaur Plaguecaller"
   },
   {
     "category": "Charm",
     "item_name": "Vile Ichor",
     "item_type": "Charm",
     "stats": [
-      "3/6/9% increased Damage over Time",
       "3/6/9% increased Spell Damage"
     ],
     "completion_bonus": [
-      "+20% Plagued Resistance",
-      "Summons have 50% increased Damage"
+      "+20% Plagued Resistance"
     ],
     "enchantable_slots": [
-      "Rings",
-      "Necklaces"
+      "Arm Armor, Necklace"
     ],
     "dropped_by": "Exploding Spiders, Ichtian Alchemist"
   },
