@@ -136,6 +136,27 @@ export const items: Item[] = [
     "gold_value": "4688"
   },
   {
+    "item_name": "Blood Gem",
+    "item_type": "Talisman",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "energy": "51"
+    },
+    "magical_properties": [
+      "+27 Weapon Vitality Damage",
+      "54% increased Vitality Damage",
+      "27% increased Ailment Power"
+    ],
+    "unique_effects": [
+      "+2% Base Lifesteal to all Damage",
+      "When taking melee damage while below 30% Health, you have 4% chance of causing a Blood Drain area effect"
+    ],
+    "flavor_text": "A tiny droplet of Titan Ichor, small enough to carry",
+    "requirements": "RSV 241",
+    "gold_value": 5070
+  },
+  {
     "item_name": "Bonesaw",
     "item_type": "Sword",
     "rarity": "Epic",
@@ -254,6 +275,28 @@ export const items: Item[] = [
     "gold_value": 4711
   },
   {
+    "item_name": "Chaos Cube",
+    "item_type": "Talisman",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "energy": "50"
+    },
+    "magical_properties": [
+      "+144 Lightning Retaliation",
+      "+37 Energy",
+      "+198 Free Barrier",
+      "+147 Health",
+      "+14% Glancing Hits Chance"
+    ],
+    "unique_effects": [
+      "Gain 43% of your Maximum Barrier as Barrier Decay Threshold"
+    ],
+    "flavor_text": "Whatever is held inside this shifting cube seems to distort reality itself",
+    "requirements": "CUN 241",
+    "gold_value": 5070
+  },
+  {
     "item_name": "Chromatic Staff",
     "item_type": "Staff",
     "rarity": "Epic",
@@ -277,6 +320,28 @@ export const items: Item[] = [
     "flavor_text": "A staff that gains its power by tapping into a multitude of different magical currents",
     "requirements": "KNL 251",
     "gold_value": 4688
+  },
+  {
+    "item_name": "Conch of Storms",
+    "item_type": "Talisman",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "energy": "49"
+    },
+    "magical_properties": [
+      "+21% Cold Resistance",
+      "+23% Lightning Resistance",
+      "+5.3 Energy Regeneration per second",
+      "Summons have 12% increased All Speed"
+    ],
+    "unique_effects": [
+      "+2 Capacity to Storm Tier 2 Active Skills",
+      "+1 Level to all Storm Passives Skills"
+    ],
+    "flavor_text": "An antideluvian relic from the sea, holy to the Ichthians",
+    "requirements": "KNL 251",
+    "gold_value": 5070
   },
   {
     "item_name": "Coral Mace",
@@ -350,6 +415,28 @@ export const items: Item[] = [
     "flavor_text": "Touched by Strength itself, the plain looking metal emenates an aura of might and fury.",
     "requirements": "LV 35",
     "gold_value": 4551
+  },
+  {
+    "item_name": "Crimson Viper",
+    "item_type": "Talisman",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "energy": "50"
+    },
+    "magical_properties": [
+      "+21 Weapon Poison Damage",
+      "39% increased Poison Damage",
+      "+23% Fire Resistance"
+    ],
+    "unique_effects": [
+      "+1 Capacity to Dodge",
+      "Unlock Bleed - Rupture",
+      "+1 Level to all Rogue Passives Skill"
+    ],
+    "flavor_text": "A sinister charm made from a living snake",
+    "requirements": "AGI 251",
+    "gold_value": 5070
   },
   {
     "item_name": "Crush-Stick of the Fallen God",
@@ -427,6 +514,49 @@ export const items: Item[] = [
     "flavor_text": "An extremely heavy sledgehammer.",
     "requirements": "MIG 230",
     "gold_value": 6550
+  },
+  {
+    "item_name": "Death Rattle",
+    "item_type": "Talisman",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "energy": "50"
+    },
+    "magical_properties": [
+      "+78 Weapon Vitality Damage",
+      "+210 Armor",
+      "Summons have 31% increased Damage",
+      "+15 Health recovered on Kill"
+    ],
+    "unique_effects": [
+      "20% Chance to Trigger a Rupture on Hit against Channeling or Incapacitated Enemies. Chance is doubled on Critical Hit. Not more than once per second. (Unique Effect)",
+      "+1 Level to all Warfare Passives Skills"
+    ],
+    "flavor_text": "The unsettling sounds from this hollowed skull seem to encourage your darker impulses",
+    "requirements": "FIT 241",
+    "gold_value": 5070
+  },
+  {
+    "item_name": "Earthen Talisman",
+    "item_type": "Talisman",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "energy": "51"
+    },
+    "magical_properties": [
+      "+19% Poison Resistance",
+      "+27% Stun Resistance",
+      "24% increased Ailment Power"
+    ],
+    "unique_effects": [
+      "15% increased Armor",
+      "+1 Level to all Earth Passive Skills"
+    ],
+    "flavor_text": "An ancient vase used by daring invokers to call upon the primordial power of Gaia",
+    "requirements": "MGT 251",
+    "gold_value": 5070
   },
   {
     "item_name": "Edge of Darkness",
