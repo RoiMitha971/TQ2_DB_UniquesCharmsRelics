@@ -742,11 +742,10 @@ export const items: Item[] = [
     "type": "Dagger",
     "rarity": "Epic",
     "required_level": 50,
-  
     "base_stats": {
-      "min_damage": 120,
-      "max_damage": 132,
-      "attack_speed": 1.56
+      "total_damage": "120-132",
+      "strike_damage": "120-132",
+      "attack_speed": "1.56"
     },
   
     "magical_properties": [
