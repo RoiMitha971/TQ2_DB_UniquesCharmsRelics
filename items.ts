@@ -747,7 +747,6 @@ export const items: Item[] = [
       "strike_damage": "120-132",
       "attack_speed": "1.56"
     },
-  
     "magical_properties": [
       "61% increased Strike Damage",
       "58% increased Pierce Damage",
@@ -755,8 +754,7 @@ export const items: Item[] = [
       "+24 Might",
       "21% increased Stun Duration"
     ],
-  
-    "unique_properties": [
+    "unique_effects": [
       "+1 Capacity to Disruption Skills",
       "+10% increased Combat Gold gained",
       "After using a Disruption Skill, gain 10% increased Movement Speed and 3 Weapon Strike damage per Level for 4 seconds"
