@@ -463,9 +463,6 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "dropped_by": [
       "Chapter 1"
-    ],
-    "flavor_text":
-      "The Aegis is the shield of Athena, greek goddess of battle."
   },
   {
     "category": "Relic",
@@ -481,7 +478,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
   {
     "category": "Relic",
@@ -498,7 +497,9 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "Shield",
       "Talisman"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
   {
     "category": "Relic",
@@ -513,7 +514,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Bow"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
    {
     "category": "Relic",
@@ -531,7 +534,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -547,7 +552,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
   {
     "category": "Relic",
@@ -563,7 +570,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Bow"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"
   },
   {
     "category": "Relic",
@@ -578,7 +587,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Jewelry"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"
   },
   {
     "category": "Relic",
@@ -595,7 +606,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
   {
     "category": "Relic",
@@ -610,7 +623,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"
   },
   {
     "category": "Relic",
@@ -628,7 +643,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Necklaces"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
   {
     "category": "Relic",
@@ -645,7 +662,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Jewelry"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -661,7 +680,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Head Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -678,7 +699,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -694,7 +717,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Head Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -711,7 +736,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -727,7 +754,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"
   },
   {
     "category": "Relic",
@@ -743,7 +772,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Legs"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"
   },
   {
     "category": "Relic",
@@ -760,7 +791,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -775,7 +808,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"
   },
   {
     "category": "Relic",
@@ -792,7 +827,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -807,7 +844,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"
   },
   {
     "category": "Relic",
@@ -824,7 +863,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
    {
     "category": "Relic",
@@ -841,7 +882,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
   {
     "category": "Relic",
@@ -856,9 +899,10 @@ export const relicsAndCharms: RelicCharm[] = [
       "+4% Max Cold Resistance"
     ],
     "enchantable_slots": [
-      "Rings",
-      "Necklaces"
-    ]
+      "Jewelry"
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
   {
     "category": "Relic",
@@ -875,7 +919,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
   {
     "category": "Relic",
@@ -892,7 +938,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -909,7 +957,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Arm Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -924,7 +974,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Armor"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -938,7 +990,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "Rings"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 2"
   },
    {
     "category": "Relic",
@@ -955,7 +1009,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"
   },
   {
     "category": "Relic",
@@ -972,7 +1028,9 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 3"
   },
   {
     "category": "Relic",
@@ -988,6 +1046,8 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons"
-    ]
+    ],
+    "dropped_by": [
+      "Chapter 1"F
   }
 ];
