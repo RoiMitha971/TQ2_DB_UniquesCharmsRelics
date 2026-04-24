@@ -263,7 +263,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Devices have 10/20/30% increased Damage"
     ],
     "completion_bonus": [
-      "+X Device Skills Capacity"
+      "+1 Device Skills Capacity"
     ],
     "enchantable_slots": [
       "Necklace, Head"
