@@ -304,7 +304,7 @@ export const items: Item[] = [
     "base_stats": {
       "total_damage": "208-230",
       "elemental_breakdown": "52-57 Spirit, Cold, Fire, Lightning",
-      "attack_speed": "1"
+      "attack_speed": "1x"
     },
     "magical_properties": [
       "49% increased Elemental Damage",
