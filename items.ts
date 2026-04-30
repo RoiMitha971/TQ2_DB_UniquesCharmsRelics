@@ -822,7 +822,7 @@ export const items: Item[] = [
       "total_damage": "144-160",
       "fire_damage": "72-80",
       "cold_damage":"72-80",
-      "attack_speed": "1.25"
+      "attack_speed": "1.25x"
     },
     "magical_properties": [
       "+40 Weapon Fire Damage",
@@ -955,7 +955,7 @@ export const items: Item[] = [
     "base_stats": {
       "total_damage": "173-191",
       "strike_damage": "173-191",
-      "attack_speed": "1.12"
+      "attack_speed": "1.12x"
     },
     "magical_properties": [
       "+58 Weapon Strike Damage",
@@ -980,7 +980,7 @@ export const items: Item[] = [
     "base_stats": {
       "total_damage": "120-132",
       "strike_damage": "120-132",
-      "attack_speed": "1.56"
+      "attack_speed": "1.56x"
     },
     "magical_properties": [
       "61% increased Strike Damage",
