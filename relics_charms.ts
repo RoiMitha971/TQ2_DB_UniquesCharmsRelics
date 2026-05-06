@@ -169,7 +169,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Glacial Shard",
     "item_type": "Charm",
     "stats": [
-      "5+3/6/9% Fire Resistance",
+      "+3/6/9% Fire Resistance",
       "+3/6/9% Cold Resistance"
     ],
     "completion_bonus": [
