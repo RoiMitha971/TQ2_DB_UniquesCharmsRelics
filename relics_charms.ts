@@ -804,7 +804,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Iron Will of Ajax",
     "item_type": "Relic",
     "stats": [
-      "5/7/9% Armor Value",
+      "5/7/9% increased Armor",
       "+6/12/18% Spirit Resistance"
     ],
     "completion_bonus": [
