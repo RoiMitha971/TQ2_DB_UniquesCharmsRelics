@@ -1018,7 +1018,7 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "completion_bonus": [
       "15% less Damage from Projectiles",
-      "After you get hit, gain 10% increased Speed for 8s (Non-Stackable)
+      "After you get hit, gain 10% increased Speed for 8s (Non-Stackable)"
     ],
     "enchantable_slots": [
       "Shield, Talisman"
