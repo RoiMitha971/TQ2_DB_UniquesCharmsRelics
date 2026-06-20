@@ -61,14 +61,14 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Boar Hide",
     "item_type": "Charm",
     "stats": [
-      "+8/16/24 Might",
-      "+5/10/15% Glancing Hit Chance"
+      "+3/6/9 Poison Resistance",
+      "+3/6/9 Lightning Resistance"
     ],
     "completion_bonus": [
-      "5 Armor per Level"
+      "+3 Health per Level"
     ],
     "enchantable_slots": [
-      "Jewelry"
+      "All Armor"
     ],
     "dropped_by": "Boar, Monstrous Boar, Boarman"
   },
@@ -222,6 +222,22 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "enchantable_slots": [
       "All Weapons, Talisman"
+    ],
+    "dropped_by": "Ichtians"
+  },
+  {
+    "category": "Charm",
+    "item_name": "Ichthian Pearl",
+    "item_type": "Charm",
+    "stats": [
+      "+8/16/24 Might",
+      "+5/10/15% Glancing Hit Chance"
+    ],
+    "completion_bonus": [
+      "+5 Armor per Level"
+    ],
+    "enchantable_slots": [
+      "Jewelry"
     ],
     "dropped_by": "Ichtians"
   },
@@ -680,6 +696,24 @@ export const relicsAndCharms: RelicCharm[] = [
   },
   {
     "category": "Relic",
+    "item_name": "Fury of Skylla",
+    "item_type": "Relic",
+    "stats": [
+      "10/20/30% increased Lightning Damage",
+      "20/40/60% increased Shocked Ailment Power",
+      "7/14/21% increased Shocked Ailment Duration"
+    ],
+    "completion_bonus": [
+      "10% increased Total Lightning Damage against Shocked enemies",  
+      "+2 Maximum Shocked Stacks"
+    ],
+    "enchantable_slots": [
+      "All Weapons"
+    ],
+    "dropped_by": "Chapter 4"
+  },
+  {
+    "category": "Relic",
     "item_name": "Hades' Helm of Darkness",
     "item_type": "Relic",
     "stats": [
@@ -712,6 +746,23 @@ export const relicsAndCharms: RelicCharm[] = [
       "Armor"
     ],
     "dropped_by": "Chapter 3"
+  },
+  {
+    "category": "Relic",
+    "item_name": "Herakles' Might",
+    "item_type": "Relic",
+    "stats": [
+      "+10/20/30 Might",
+      "3/6/9% increased Health",
+      "10/20/30% increased Skill Damage"
+    ],
+    "completion_bonus": [
+      "When hit while below 50% Health, gain 10% less Damage taken and 20% increased total Damage for 5s. (30s cd)"
+    ],
+    "enchantable_slots": [
+      "All Armor"
+    ],
+    "dropped_by": "Chapter 4"
   },
   {
     "category": "Relic",
@@ -814,6 +865,24 @@ export const relicsAndCharms: RelicCharm[] = [
       "Armor"
     ],
     "dropped_by": "Chapter 1"
+  },
+  {
+    "category": "Relic",
+    "item_name": "Judgement of Minos",
+    "item_type": "Relic",
+    "stats": [
+      "10/20/30% increased Cold Damage",
+      "10/20/30% increased Chilled Ailment Power",
+      "7/14/21% increased Chilled Ailment Duration"
+    ],
+    "completion_bonus": [
+      "10% increased Total Cold Damage against Chilled Enemies",
+      "+2 Maximum Chilled Stacks"
+    ],
+    "enchantable_slots": [
+      "All Weapons"
+    ],
+    "dropped_by": "Chapter 4"
   },
   {
     "category": "Relic",
@@ -937,6 +1006,24 @@ export const relicsAndCharms: RelicCharm[] = [
       "Armor"
     ],
     "dropped_by": "Chapter 3"
+  },
+  {
+    "category": "Relic",
+    "item_name": "Shade of Hector",
+    "item_type": "Relic",
+    "stats": [
+      "3/6/9% increased Health",
+      "15/30/45% increased Barrier",
+      "+15/30/45% Stun Resistance"
+    ],
+    "completion_bonus": [
+      "15% less Damage from Projectiles",
+      "After you get hit, gain 10% increased Speed for 8s (Non-Stackable)
+    ],
+    "enchantable_slots": [
+      "Shield, Talisman"
+    ],
+    "dropped_by": "Chapter 4"
   },
   {
     "category": "Relic",
