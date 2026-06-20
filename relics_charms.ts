@@ -1093,4 +1093,4 @@ export const relicsAndCharms: RelicCharm[] = [
     ],
     "dropped_by": "Chapter 1"
   }
-]
+];
