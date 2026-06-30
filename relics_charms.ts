@@ -24,7 +24,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "enchantable_slots": [
       "All Weapons, Talisman, Arms"
     ],
-    "dropped_by": "Ketos Spawn, Hippocampos Foal, Crocolisk"
+    "dropped_by": "Ketos Spawn, Hippocampos Foal, Crocolisk, Crusty Lizard"
   },
   {
     "category": "Charm",
