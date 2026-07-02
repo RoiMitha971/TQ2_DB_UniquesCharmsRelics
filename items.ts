@@ -1632,6 +1632,29 @@ export const items: Item[] = [
     "gold_value": 6902
   },
   {
+    "item_name": "Triopas' Hunting Bow",
+    "item_type": "Bow",
+    "rarity": "Epic",
+    "required_level": 43,
+    "base_stats": {
+      "total_damage": "138-152",
+      "pierce_damage": "138-152",
+      "attack_speed": "1.25x"
+    },
+    "magical_properties": [
+      "18% increased Attack Speed",
+      "39% increased Bleeding Ailment Power",
+      "+1 Capacity to Earth Tier 2 Active Skills",
+      "14% increased Movement Speed"
+    ],
+    "unique_effects": [
+      "Hitting an enemy with your Primary Attack reduces Dodge Cooldown by 30% of its remaining duration (Unique Effect)"
+    ],
+    "flavor_text": "Triopas crafted this to complete his first hunt as an adult, an important centaur ritual",
+    "requirements": "",
+    "gold_value": 3505
+  },
+  {
     "item_name": "Trygon's Tail",
     "item_type": "Dagger",
     "rarity": "Epic",
