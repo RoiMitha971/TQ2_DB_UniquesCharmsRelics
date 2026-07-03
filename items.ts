@@ -363,7 +363,7 @@ export const items: Item[] = [
       "47% Increased Ailment Chance"
     ],
     "unique_effects": [
-      "+23% Base Weapon Ailment Chance"
+      "+10% Base Weapon Ailment Chance"
     ],
     "flavor_text": "This coral is hard enough to shatter bone.",
     "requirements": "MIG 230",
