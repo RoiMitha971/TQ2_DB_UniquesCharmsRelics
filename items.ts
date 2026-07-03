@@ -913,7 +913,7 @@ export const items: Item[] = [
     ],
     "unique_effects": [
       "19% increased Lightning Strikes Damage", 
-      "20% to Hit a random Enemy with a Lightning Strike when cleansing Overlad. (Scales with Lightning Strike chance)"
+      "20% to Hit a random Enemy with a Lightning Strike when cleansing Overload. (Scales with Lightning Strike chance)"
     ],
     "flavor_text": "A unique weapon, tempered by Zeus's thunderbolt. It crackles with energy.",
     "requirements": "AGI 230",
@@ -1674,7 +1674,7 @@ export const items: Item[] = [
     ],
     "unique_effects": [
       "+1 Capacity to Cold Skills",
-      "Attacks has an Additional 100% Plagued Chance against Frozen Enemies"
+      "Attacks have an Additional 100% Plagued Chance against Frozen Enemies"
     ],
     "flavor_text": "The venomous tip of the lord of stingrays' tail, which slew the hero Odysseus.",
     "requirements": "FIT 224",
