@@ -46,7 +46,7 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Boarman Blood",
     "item_type": "Charm",
     "stats": [
-      "3/6/9% increased Attack and Cast Speed"
+      "3/6/9% increased Attack Speed"
     ],
     "completion_bonus": [
       "20% increased Attack Damage"
@@ -443,10 +443,10 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Vile Ichor",
     "item_type": "Charm",
     "stats": [
-      "3/6/9% increased Spell Damage"
+      "3/6/9% increased Cast Speed"
     ],
     "completion_bonus": [
-      "+20% Plagued Resistance"
+      "20% increased Spell Damage"
     ],
     "enchantable_slots": [
       "Arms, Necklace"
