@@ -370,31 +370,6 @@ export const items: Item[] = [
     "gold_value": 3470
   },
   {
-    "item_name": "Crab Shield",
-    "item_type": "Shield",
-    "rarity": "Epic",
-    "required_level": 50,
-    "base_stats": {
-      "barrier": 360,
-      "armor": 257
-    },
-    "magical_properties": [
-      "+254 Pierce Retaliation",
-      "+225 Armor",
-      "10% increased Armor",
-      "+159 Health",
-      "46% increased Ailment Chance",
-      "Summons have 26% increased Health"
-    ],
-    "unique_effects": [
-      "52% increased Retaliation Damage",
-      "Additionnal 15% Chance to apply Bleed when you deal Retaliation Damage"
-    ],
-    "flavor_text": "A shield fashioned from a sturdy crab shell.",
-    "requirements": "MGT 251",
-    "gold_value": 4881
-  },
-  {
     "item_name": "Cratus' Coil",
     "item_type": "Ring",
     "rarity": "Epic",
@@ -1630,6 +1605,31 @@ export const items: Item[] = [
     "flavor_text": "A vined staff, sacred to Dionysos.",
     "requirements": "KNO 230",
     "gold_value": 6902
+  },
+  {
+    "item_name": "Tideclaw Buckler",
+    "item_type": "Shield",
+    "rarity": "Epic",
+    "required_level": 50,
+    "base_stats": {
+      "barrier": 360,
+      "armor": 257
+    },
+    "magical_properties": [
+      "+254 Pierce Retaliation",
+      "+225 Armor",
+      "10% increased Armor",
+      "+159 Health",
+      "46% increased Ailment Chance",
+      "Summons have 26% increased Health"
+    ],
+    "unique_effects": [
+      "52% increased Retaliation Damage",
+      "Additional 15% Chance to apply Bleed when you deal Retaliation Damage"
+    ],
+    "flavor_text": "A shield fashioned from a sturdy crab shell.",
+    "requirements": "MGT 251",
+    "gold_value": 4881
   },
   {
     "item_name": "Triopas' Hunting Bow",
