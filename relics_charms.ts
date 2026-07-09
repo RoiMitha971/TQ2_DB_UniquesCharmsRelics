@@ -912,7 +912,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+5/10/15% Plagued Resistance"
     ],
     "completion_bonus": [
-      "Every 3s, 100% chance to apply Weakened to all Enemies within a 3m radius",
+      "Every 3s, 100% chance to apply Plagued to all Enemies within a 3m radius",
       "9% increased Plagued Ailment Power"
     ],
     "enchantable_slots": [
