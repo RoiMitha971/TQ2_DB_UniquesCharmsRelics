@@ -769,11 +769,12 @@ export const relicsAndCharms: RelicCharm[] = [
     "item_name": "Hera's Scepter",
     "item_type": "Relic",
     "stats": [
-      "15/30/45% increased Poison Damage",
-      "20/40/60% increased Plagued Ailment Chance",
-      "4/8/12% increased Plagued Ailment Duration"
+      "10/20/30% increased Poison Damage",
+      "10/20/30% increased Plagued Ailment Power",
+      "7/14/21% increased Plagued Ailment Duration"
     ],
     "completion_bonus": [
+      "10% increased Total Poison Damage against Plagued Enemies",
       "+2 Maximum Plagued Stacks"
     ],
     "enchantable_slots": [
