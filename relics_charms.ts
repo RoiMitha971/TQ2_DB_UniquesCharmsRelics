@@ -126,7 +126,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+1/2/3% Critical Hit chance"
     ],
     "completion_bonus": [
-      "3% increased Critical Hit Damage Modifier"
+      "6% increased Critical Hit Damage Multiplier"
     ],
     "enchantable_slots": [
       "Jewelry, All Weapons"
@@ -416,7 +416,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "2/4/6 Health per Level"
     ],
     "completion_bonus": [
-      "4% increased Health"
+      "4% Magical Resistances"
     ],
     "enchantable_slots": [
       "Torso, Shield"
