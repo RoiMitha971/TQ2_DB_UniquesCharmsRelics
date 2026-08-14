@@ -37,7 +37,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "5% increased Ailment Power"
     ],
     "enchantable_slots": [
-      "Jewelry, All Weapons"
+      "All Jewelry, All Weapons"
     ],
     "dropped_by": "Skeleton - Evoker"
   },
@@ -129,7 +129,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "6% increased Critical Hit Damage Multiplier"
     ],
     "enchantable_slots": [
-      "Jewelry, All Weapons"
+      "All Jewelry, All Weapons"
     ],
     "dropped_by": "Ichtian Enchanter, Empusas"
   },
@@ -237,7 +237,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+5 Armor per Level"
     ],
     "enchantable_slots": [
-      "Jewelry"
+      "All Jewelry"
     ],
     "dropped_by": "Ichtians"
   },
@@ -312,7 +312,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+4 Energy Regeneration per second"
     ],
     "enchantable_slots": [
-      "Jewelry, Talisman"
+      "All Jewelry, Talisman"
     ],
     "dropped_by": "Gilded Dead, Skeletons (except Evokers), Ichtian Necromancer"
   },
@@ -358,7 +358,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+5 Armor per Level"
     ],
     "enchantable_slots": [
-      "Jewelry"
+      "All Jewelry"
     ],
     "dropped_by": "Gryphons, Eagles, Stympgalian Bird"
   },
@@ -389,7 +389,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+5 Armor per Level"
     ],
     "enchantable_slots": [
-      "Jewelry"
+      "All Jewelry"
     ],
     "dropped_by": "Ghosts, Bandits, Accusing Shadow, Stalking Shadow, Centaur Ritualist"
   },
@@ -584,7 +584,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "9% increased Movement Speed"
     ],
     "enchantable_slots": [
-      "Jewelry"
+      "All Jewelry"
     ],
     "dropped_by": "Chapter 1"
   },
@@ -655,7 +655,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "50% more Barrier Decay Rate"
     ],
     "enchantable_slots": [
-      "Jewelry"
+      "All Jewelry"
     ],
     "dropped_by": "Chapter 3"
   },
@@ -934,7 +934,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+4% Max Cold Resistance"
     ],
     "enchantable_slots": [
-      "Jewelry"
+      "All Jewelry"
     ],
     "dropped_by": "Chapter 2"
   },
@@ -988,7 +988,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Kill grants you and Summons 3% Speed for 10s (stacks 5x)"
     ],
     "enchantable_slots": [
-      "Arm Armor"
+      "Arms"
     ],
     "dropped_by": "Chapter 3"
   },
