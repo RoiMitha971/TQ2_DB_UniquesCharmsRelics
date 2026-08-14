@@ -37,7 +37,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "5% increased Ailment Power"
     ],
     "enchantable_slots": [
-      "Jewelry, Weapons"
+      "Jewelry, All Weapons"
     ],
     "dropped_by": "Skeleton - Evoker"
   },
@@ -114,7 +114,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "3 Health per Level"
     ],
     "enchantable_slots": [
-      "Armor, Shield"
+      "All Armor, Shield"
     ],
     "dropped_by": ""
   },
@@ -160,7 +160,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+10% increased Health Regeneration"
     ],
     "enchantable_slots": [
-      "Armor, Shield"
+      "All Armor, Shield"
     ],
     "dropped_by": "Leeches, Undead Ichtians"
   },
@@ -176,7 +176,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+3 Health per Level"
     ],
     "enchantable_slots": [
-      "Armor, Shield"
+      "All Armor, Shield"
     ],
     "dropped_by": "Bandit Trainee, Skeleton Evoker (ice), Frost Revenant, Ichtian Hydromancer"
   },
@@ -191,7 +191,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "+4% Magical Resistances"
     ],
     "enchantable_slots": [
-      "Armor, Talisman"
+      "All Armor, Talisman"
     ],
     "dropped_by": "Bandit Leader, Bandit Marauder, Skeleton Warlock, Centaur Spiritcaller, Ghosts"
   },
@@ -373,7 +373,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "10% increased Health Regeneration"
     ],
     "enchantable_slots": [
-      "Armor, Shield"
+      "All Armor, Shield"
     ],
     "dropped_by": "Crabs, Scorpions, Ichtians: Commander, Guard, Brute, Undead Brute"
   },
@@ -743,7 +743,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Enemies within 6m have -7% Fire Resistance"
     ],
     "enchantable_slots": [
-      "Armor"
+      "All Armor"
     ],
     "dropped_by": "Chapter 3"
   },
@@ -829,7 +829,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "20% increased Energy Regeneration while below 50% Energy"
     ],
     "enchantable_slots": [
-      "Armor"
+      "All Armor"
     ],
     "dropped_by": "Chapter 1"
   },
@@ -863,7 +863,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "30% chance to cleanse Hard CC and gain 8s Immunity (30s CD)"
     ],
     "enchantable_slots": [
-      "Armor"
+      "All Armor"
     ],
     "dropped_by": "Chapter 1"
   },
@@ -917,7 +917,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "9% increased Plagued Ailment Power"
     ],
     "enchantable_slots": [
-      "Armor"
+      "All Armor"
     ],
     "dropped_by": "Chapter 2"
   },
@@ -952,7 +952,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "9% increased Weakened Ailment Power"
     ],
     "enchantable_slots": [
-      "Armor"
+      "All Armor"
     ],
     "dropped_by": "Chapter 2"
   },
@@ -1004,7 +1004,7 @@ export const relicsAndCharms: RelicCharm[] = [
       "Killing grants +3 Energy Regeneration for 4s (stacks 4x)"
     ],
     "enchantable_slots": [
-      "Armor"
+      "All Armor"
     ],
     "dropped_by": "Chapter 3"
   },
