@@ -3,7 +3,7 @@ export interface Item {
   item_type: string;
   rarity: string;
   required_level: number;
-  base_stats: Record<string, any>;
+  base_stats: Record<string, string | number>;
   magical_properties: string[];
   unique_effects: string[];
   flavor_text: string;
@@ -113,7 +113,7 @@ export const items: Item[] = [
     "item_name": "Blademagos Sword",
     "item_type": "Sword",
     "rarity": "Epic",
-    "level": 50,
+    "required_level": 50,
     "base_stats": {
       "total_damage": "120-132",
       "lightning_damage": "80-89",
@@ -133,7 +133,7 @@ export const items: Item[] = [
     ],
     "flavor_text": "A sword made for magic users rather than warriors.",
     "requirements": "KNI 251",
-    "gold_value": "4688"
+    "gold_value": 4688
   },
   {
     "item_name": "Blood Gem",
